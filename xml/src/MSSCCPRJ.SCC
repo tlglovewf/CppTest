@@ -1,0 +1,18 @@
+SCC = This is a Source Code Control file.
+
+[NdsMap.sln]
+SCC_Aux_Path = 192.168.16.25:8879:CM_FD_QNaviT
+SCC_Project_Name = $/T103_NDSApp1.0/04.CODE/06.NdsMap
+
+[freetype.vcproj]
+SCC_Aux_Path = 192.168.16.25:8879:CM_FD_QNaviT
+SCC_Project_Name = $/T103_NDSApp1.0/04.CODE/06.NdsMap/freetype/builds/wince/vc2008-ce
+
+[freetype.sln]
+SCC_Aux_Path = 192.168.16.25:8879:CM_FD_QNaviT
+SCC_Project_Name = $/T103_NDSApp1.0/04.CODE/06.NdsMap/freetype/builds/wince/vc2008-ce
+
+[freetype.dsp]
+SCC_Aux_Path = 192.168.16.25:8879:CM_FD_QNaviT
+SCC_Project_Name = $/T103_NDSApp1.0/04.CODE/06.NdsMap/freetype/builds/win32/visualce
+

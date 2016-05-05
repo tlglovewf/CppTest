@@ -184,20 +184,20 @@ private:
 };
 
 
-int main(void)
-{
-    GpuParameters parameters;
-    int x = 10;
-    parameters.Set<int>("test", &x);
-    x = 11;
-    parameters.Set<int>("test", &x);
-    IParameter *param = new GpuParameter<int>("world");
-    int dd = 100;
-    param->set(&dd);
-    parameters.setParameter(*param);
-    dd = 101;
-    parameters["world"]->set(&dd);
-    delete param;
-    printf("%d", *(int*)parameters.Get("world"));
-    return 0;
-}
+//int main(void)
+//{
+//    GpuParameters parameters;
+//    int x = 10;
+//    parameters.Set<int>("test", &x);
+//    x = 11;
+//    parameters.Set<int>("test", &x);
+//    IParameter *param = new GpuParameter<int>("world");
+//    int dd = 100;
+//    param->set(&dd);
+//    parameters.setParameter(*param);
+//    dd = 101;
+//    parameters["world"]->set(&dd);
+//    delete param;
+//    printf("%d", *(int*)parameters.Get("world"));
+//    return 0;
+//}

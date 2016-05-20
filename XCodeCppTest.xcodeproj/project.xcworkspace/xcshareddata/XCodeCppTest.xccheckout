@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F4D7BB94-93D9-43ED-B5C1-83A2499ACB62</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>XCodeCppTest</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>DEE8D9F159721B9FBFB6E1B0450F735E6F33DF1F</key>
 		<string>https://github.com/tlglovewf/CppTest.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>XCodeCppTest.xcodeproj/project.xcworkspace</string>
+	<string>XCodeCppTest.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>DEE8D9F159721B9FBFB6E1B0450F735E6F33DF1F</key>

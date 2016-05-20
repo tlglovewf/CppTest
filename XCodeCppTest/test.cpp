@@ -107,26 +107,26 @@ static bool Comp(int a, int b)
     return a > b;
 }
 
-int main(void)
-{
-    vector<int>  test;
-    test.push_back(5);
-    test.push_back(3);
-    test.push_back(4);
-    test.push_back(3);
-    test.push_back(5);
-    test.push_back(10);
-    PRINT(test)
-    sort(test.begin(),test.end(),Comp);
-    PRINT(test)
-    
-    set<int,bool (*)(int,int)> sets(Comp);
-    sets.insert(5);
-    sets.insert(10);
-    sets.insert(3);
-    sets.insert(4);
-    PRINT(sets)
-    
-    
-    return 0;
-}
+//int main(void)
+//{
+//    vector<int>  test;
+//    test.push_back(5);
+//    test.push_back(3);
+//    test.push_back(4);
+//    test.push_back(3);
+//    test.push_back(5);
+//    test.push_back(10);
+//    PRINT(test)
+//    sort(test.begin(),test.end(),Comp);
+//    PRINT(test)
+//    
+//    set<int,bool (*)(int,int)> sets(Comp);
+//    sets.insert(5);
+//    sets.insert(10);
+//    sets.insert(3);
+//    sets.insert(4);
+//    PRINT(sets)
+//    
+//    
+//    return 0;
+//}

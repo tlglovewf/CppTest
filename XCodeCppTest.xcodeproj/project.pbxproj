@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A01C75F1CEC0F0000B0857E /* construct.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C7511CEC0F0000B0857E /* construct.c */; };
+		6A01C7611CEC0F0000B0857E /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C7551CEC0F0000B0857E /* Makefile */; };
+		6A01C7621CEC0F0000B0857E /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C7561CEC0F0000B0857E /* misc.c */; };
+		6A01C7641CEC0F0000B0857E /* monotone.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C7581CEC0F0000B0857E /* monotone.c */; };
+		6A01C7661CEC0F0000B0857E /* tri.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C75B1CEC0F0000B0857E /* tri.c */; };
+		6A01C7821CEC3E1E00B0857E /* gpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C7801CEC3E1E00B0857E /* gpc.c */; };
+		6A01C7851CEC401A00B0857E /* triangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C7831CEC401A00B0857E /* triangle.c */; };
+		6A01C7881CEC40AE00B0857E /* triangleLibTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C7871CEC40AE00B0857E /* triangleLibTest.cpp */; };
 		6A3B60F21C86D68A00FD7A31 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3B60EE1C86D68A00FD7A31 /* tinystr.cpp */; };
 		6A3B60F31C86D68A00FD7A31 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3B60EF1C86D68A00FD7A31 /* tinyxml.cpp */; };
 		6A3B60F41C86D68A00FD7A31 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3B60F01C86D68A00FD7A31 /* tinyxmlerror.cpp */; };
@@ -19,7 +27,6 @@
 		6A89E2BA1C7BF9B6006CE56A /* triangleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A89E2B91C7BF9B6006CE56A /* triangleTest.cpp */; };
 		6A89E2BC1C7BFA1A006CE56A /* gpcTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A89E2BB1C7BFA1A006CE56A /* gpcTest.cpp */; };
 		6A91D7A21C992A0800AFDEF7 /* singleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A91D7A01C992A0800AFDEF7 /* singleton.cpp */; };
-		6AAE3A7E1C7B0CAC00811CDF /* gpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE3A7C1C7B0CAC00811CDF /* gpc.c */; };
 		6ACC45DC1C86D6FF00348904 /* xmlTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6ACC45DB1C86D6FF00348904 /* xmlTest.cpp */; };
 		6AE07A3D1C0BE22600563A09 /* jsonTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AE07A3C1C0BE22600563A09 /* jsonTest.cpp */; };
 		6AE9A3E81CD9E5F200BE20C5 /* polyline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AE9A3E71CD9E5F200BE20C5 /* polyline.cpp */; };
@@ -38,6 +45,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6A01C7511CEC0F0000B0857E /* construct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = construct.c; sourceTree = "<group>"; };
+		6A01C7531CEC0F0000B0857E /* data_1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data_1; sourceTree = "<group>"; };
+		6A01C7541CEC0F0000B0857E /* interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interface.h; sourceTree = "<group>"; };
+		6A01C7551CEC0F0000B0857E /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		6A01C7561CEC0F0000B0857E /* misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = misc.c; sourceTree = "<group>"; };
+		6A01C7581CEC0F0000B0857E /* monotone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = monotone.c; sourceTree = "<group>"; };
+		6A01C75A1CEC0F0000B0857E /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		6A01C75B1CEC0F0000B0857E /* tri.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tri.c; sourceTree = "<group>"; };
+		6A01C75E1CEC0F0000B0857E /* triangulate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triangulate.h; sourceTree = "<group>"; };
+		6A01C7801CEC3E1E00B0857E /* gpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gpc.c; path = gpc/gpc.c; sourceTree = "<group>"; };
+		6A01C7811CEC3E1E00B0857E /* gpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gpc.h; path = gpc/gpc.h; sourceTree = "<group>"; };
+		6A01C7831CEC401A00B0857E /* triangle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = triangle.c; path = triangle/triangle.c; sourceTree = "<group>"; };
+		6A01C7841CEC401A00B0857E /* triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = triangle.h; path = triangle/triangle.h; sourceTree = "<group>"; };
+		6A01C7871CEC40AE00B0857E /* triangleLibTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = triangleLibTest.cpp; sourceTree = "<group>"; };
 		6A3B60E81C86D68A00FD7A31 /* MSSCCPRJ.SCC */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MSSCCPRJ.SCC; sourceTree = "<group>"; };
 		6A3B60E91C86D68A00FD7A31 /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinystr.h; sourceTree = "<group>"; };
 		6A3B60EA1C86D68A00FD7A31 /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
@@ -56,8 +77,6 @@
 		6A89E2B91C7BF9B6006CE56A /* triangleTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = triangleTest.cpp; path = XCodeCppTest.xcodeproj/../triangleTest.cpp; sourceTree = SOURCE_ROOT; };
 		6A89E2BB1C7BFA1A006CE56A /* gpcTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gpcTest.cpp; path = XCodeCppTest.xcodeproj/../gpcTest.cpp; sourceTree = SOURCE_ROOT; };
 		6A91D7A01C992A0800AFDEF7 /* singleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = singleton.cpp; path = XCodeCppTest.xcodeproj/../singleton.cpp; sourceTree = SOURCE_ROOT; };
-		6AAE3A7C1C7B0CAC00811CDF /* gpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gpc.c; path = XCodeCppTest/gpc.c; sourceTree = "<group>"; };
-		6AAE3A7D1C7B0CAC00811CDF /* gpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gpc.h; path = XCodeCppTest/gpc.h; sourceTree = "<group>"; };
 		6ACC45DB1C86D6FF00348904 /* xmlTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmlTest.cpp; path = XCodeCppTest.xcodeproj/../xmlTest.cpp; sourceTree = SOURCE_ROOT; };
 		6AE07A391C0BE22600563A09 /* XCodeCppTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XCodeCppTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE07A3C1C0BE22600563A09 /* jsonTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jsonTest.cpp; sourceTree = "<group>"; };
@@ -78,6 +97,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A01C7501CEC0F0000B0857E /* polygontri */ = {
+			isa = PBXGroup;
+			children = (
+				6A01C7511CEC0F0000B0857E /* construct.c */,
+				6A01C7531CEC0F0000B0857E /* data_1 */,
+				6A01C7541CEC0F0000B0857E /* interface.h */,
+				6A01C7551CEC0F0000B0857E /* Makefile */,
+				6A01C7561CEC0F0000B0857E /* misc.c */,
+				6A01C7581CEC0F0000B0857E /* monotone.c */,
+				6A01C75A1CEC0F0000B0857E /* README */,
+				6A01C75B1CEC0F0000B0857E /* tri.c */,
+				6A01C75E1CEC0F0000B0857E /* triangulate.h */,
+			);
+			path = polygontri;
+			sourceTree = "<group>";
+		};
 		6A3B60E61C86D68A00FD7A31 /* xml */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +148,8 @@
 		6A3D949D1C61F4D6002016E8 /* triangle */ = {
 			isa = PBXGroup;
 			children = (
+				6A01C7831CEC401A00B0857E /* triangle.c */,
+				6A01C7841CEC401A00B0857E /* triangle.h */,
 			);
 			name = triangle;
 			sourceTree = "<group>";
@@ -135,8 +172,8 @@
 		6AAE3A781C7B0C5200811CDF /* gpc */ = {
 			isa = PBXGroup;
 			children = (
-				6AAE3A7C1C7B0CAC00811CDF /* gpc.c */,
-				6AAE3A7D1C7B0CAC00811CDF /* gpc.h */,
+				6A01C7801CEC3E1E00B0857E /* gpc.c */,
+				6A01C7811CEC3E1E00B0857E /* gpc.h */,
 			);
 			name = gpc;
 			sourceTree = "<group>";
@@ -144,6 +181,7 @@
 		6AE07A301C0BE22600563A09 = {
 			isa = PBXGroup;
 			children = (
+				6A01C7501CEC0F0000B0857E /* polygontri */,
 				6AE9A3E61CD9E5C200BE20C5 /* Polyline */,
 				6A4D91C31CB38E83006036C4 /* test */,
 				6A3B60E61C86D68A00FD7A31 /* xml */,
@@ -166,6 +204,7 @@
 		6AE07A3B1C0BE22600563A09 /* XCodeCppTest */ = {
 			isa = PBXGroup;
 			children = (
+				6A01C7871CEC40AE00B0857E /* triangleLibTest.cpp */,
 				6A76AF991CCF00F70048AD43 /* test.cpp */,
 				6A76AF971CCEFF7A0048AD43 /* memfuncpointer.cpp */,
 				6A721DC41CD9F4BE008F666C /* 2dPolylineTest.cpp */,
@@ -247,20 +286,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AAE3A7E1C7B0CAC00811CDF /* gpc.c in Sources */,
+				6A01C7611CEC0F0000B0857E /* Makefile in Sources */,
+				6A01C75F1CEC0F0000B0857E /* construct.c in Sources */,
+				6A01C7641CEC0F0000B0857E /* monotone.c in Sources */,
 				6A91D7A21C992A0800AFDEF7 /* singleton.cpp in Sources */,
 				6A3B60F31C86D68A00FD7A31 /* tinyxml.cpp in Sources */,
 				6A3B60F21C86D68A00FD7A31 /* tinystr.cpp in Sources */,
+				6A01C7881CEC40AE00B0857E /* triangleLibTest.cpp in Sources */,
 				6AE07A3D1C0BE22600563A09 /* jsonTest.cpp in Sources */,
 				6A721DC51CD9F4BE008F666C /* 2dPolylineTest.cpp in Sources */,
 				6A76AF9A1CCF00F70048AD43 /* test.cpp in Sources */,
+				6A01C7821CEC3E1E00B0857E /* gpc.c in Sources */,
 				6AE9A3E81CD9E5F200BE20C5 /* polyline.cpp in Sources */,
 				6A3B60F51C86D68A00FD7A31 /* tinyxmlparser.cpp in Sources */,
 				6A89E2BC1C7BFA1A006CE56A /* gpcTest.cpp in Sources */,
 				6A733A911CC0993400B55C5D /* utf8-unicode.cpp in Sources */,
 				6A70228D1CACF83700817D59 /* templateTest.cpp in Sources */,
 				6ACC45DC1C86D6FF00348904 /* xmlTest.cpp in Sources */,
+				6A01C7621CEC0F0000B0857E /* misc.c in Sources */,
 				6A76AF981CCEFF7A0048AD43 /* memfuncpointer.cpp in Sources */,
+				6A01C7661CEC0F0000B0857E /* tri.c in Sources */,
+				6A01C7851CEC401A00B0857E /* triangle.c in Sources */,
 				6A3B60F41C86D68A00FD7A31 /* tinyxmlerror.cpp in Sources */,
 				6A89E2BA1C7BF9B6006CE56A /* triangleTest.cpp in Sources */,
 			);
@@ -310,6 +356,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					./rapidjson,
 					./triangle,
+					./polygontri,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -352,6 +399,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					./rapidjson,
 					./triangle,
+					./polygontri,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;

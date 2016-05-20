@@ -12,36 +12,46 @@
 #include <list>
 #include <map>
 #include <string>
-using namespace std;
-#define SIZELEN 1e5
-bool judge(double r1, double r2)
-{
-    int t1 = r1 * SIZELEN;
-    int t2 = r2 * SIZELEN;
-    return t1 == t2;
+extern "C"{
+#include "gpc/gpc.h"
 }
-class Test
+using namespace std;
+
+int main(void)
 {
-public:
-    void display(void)
+    gpc_polygon polgon;
+    polgon.num_contours = 1;
+    gpc_vertex_list vlist;
+    vlist.num_vertices = 4;
+    gpc_vertex v[4];
+    v[0].x = 0.0;
+    v[0].y = 0.0;
+    v[1].x = 100.0;
+    v[1].y = 0.0;
+    v[2].x = 100.0;
+    v[2].y = 100.0;
+    v[3].x = 0.0;
+    v[3].y = 100.0;
+    vlist.vertex = v;
+    polgon.contour = &vlist;
+    polgon.hole = NULL;
+    
+    gpc_tristrip tri;
+    gpc_polygon_to_tristrip(&polgon, &tri);
+    
+    for(int i = 0;i < tri.num_strips;++i)
     {
-        ++x;
+        gpc_vertex_list *list = tri.strip;
+        if(NULL != list)
+        {
+            int vlen = list->num_vertices;
+            gpc_vertex *pvtx = list->vertex;
+            for(int j = 0; j < vlen; ++j)
+            {
+                cout << pvtx[j].x << " " << pvtx[j].y << endl;
+            }
+        }
     }
-    void display(void)const
-    {
-    }
-private:
-    int x;
-};
 
-#define TEST(t) #t
-
-//int main(void)
-//{
-//    string str = "a\\b\\c\\d";
-//    string::size_type len = str.find_last_of('\\');
-//    printf("%d\n",len);
-//    char *pos = strrchr(str.c_str(), '\\');
-//    len = pos - str.c_str();
-//    return 0;
-//}
+    return 0;
+}

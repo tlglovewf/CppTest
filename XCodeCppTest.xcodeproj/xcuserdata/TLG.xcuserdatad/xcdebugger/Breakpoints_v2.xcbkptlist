@@ -9,14 +9,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "XCodeCppTest/test.cpp"
-            timestampString = "483952629.311723"
+            filePath = "gpcTest.cpp"
+            timestampString = "485247610.270202"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
-            landmarkName = "display(void)"
-            landmarkType = "5">
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "main(void)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

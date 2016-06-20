@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ConsoleTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>XCodeCppTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>6ACB10AB1D13E73200F53C9E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>6AE07A381C0BE22600563A09</key>
 		<dict>
 			<key>primary</key>

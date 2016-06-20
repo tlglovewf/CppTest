@@ -14,7 +14,7 @@
 		6A01C7661CEC0F0000B0857E /* tri.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C75B1CEC0F0000B0857E /* tri.c */; };
 		6A01C7821CEC3E1E00B0857E /* gpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C7801CEC3E1E00B0857E /* gpc.c */; };
 		6A01C7851CEC401A00B0857E /* triangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C7831CEC401A00B0857E /* triangle.c */; };
-		6A01C7881CEC40AE00B0857E /* triangleLibTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C7871CEC40AE00B0857E /* triangleLibTest.cpp */; };
+		6A01C7881CEC40AE00B0857E /* hashmapTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C7871CEC40AE00B0857E /* hashmapTest.cpp */; };
 		6A3B60F21C86D68A00FD7A31 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3B60EE1C86D68A00FD7A31 /* tinystr.cpp */; };
 		6A3B60F31C86D68A00FD7A31 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3B60EF1C86D68A00FD7A31 /* tinyxml.cpp */; };
 		6A3B60F41C86D68A00FD7A31 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3B60F01C86D68A00FD7A31 /* tinyxmlerror.cpp */; };
@@ -27,12 +27,25 @@
 		6A89E2BA1C7BF9B6006CE56A /* triangleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A89E2B91C7BF9B6006CE56A /* triangleTest.cpp */; };
 		6A89E2BC1C7BFA1A006CE56A /* gpcTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A89E2BB1C7BFA1A006CE56A /* gpcTest.cpp */; };
 		6A91D7A21C992A0800AFDEF7 /* singleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A91D7A01C992A0800AFDEF7 /* singleton.cpp */; };
+		6ACB10A21D13CD3D00F53C9E /* octreeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB10A11D13CD3D00F53C9E /* octreeTest.cpp */; };
+		6ACB10AF1D13E73200F53C9E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB10AE1D13E73200F53C9E /* main.cpp */; };
 		6ACC45DC1C86D6FF00348904 /* xmlTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6ACC45DB1C86D6FF00348904 /* xmlTest.cpp */; };
 		6AE07A3D1C0BE22600563A09 /* jsonTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AE07A3C1C0BE22600563A09 /* jsonTest.cpp */; };
 		6AE9A3E81CD9E5F200BE20C5 /* polyline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AE9A3E71CD9E5F200BE20C5 /* polyline.cpp */; };
+		6AF362AE1D0FFCA6002ECEBA /* lokiTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF362AD1D0FFCA6002ECEBA /* lokiTest.cpp */; };
+		6AF362AF1D100346002ECEBA /* loki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A271ED61D0FFBA90016A118 /* loki.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		6ACB10AA1D13E73200F53C9E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		6AE07A371C0BE22600563A09 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,7 +71,8 @@
 		6A01C7811CEC3E1E00B0857E /* gpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gpc.h; path = gpc/gpc.h; sourceTree = "<group>"; };
 		6A01C7831CEC401A00B0857E /* triangle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = triangle.c; path = triangle/triangle.c; sourceTree = "<group>"; };
 		6A01C7841CEC401A00B0857E /* triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = triangle.h; path = triangle/triangle.h; sourceTree = "<group>"; };
-		6A01C7871CEC40AE00B0857E /* triangleLibTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = triangleLibTest.cpp; sourceTree = "<group>"; };
+		6A01C7871CEC40AE00B0857E /* hashmapTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hashmapTest.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		6A271ED61D0FFBA90016A118 /* loki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = loki.framework; path = loki/lib/loki.framework; sourceTree = "<group>"; };
 		6A3B60E81C86D68A00FD7A31 /* MSSCCPRJ.SCC */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MSSCCPRJ.SCC; sourceTree = "<group>"; };
 		6A3B60E91C86D68A00FD7A31 /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinystr.h; sourceTree = "<group>"; };
 		6A3B60EA1C86D68A00FD7A31 /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
@@ -77,6 +91,9 @@
 		6A89E2B91C7BF9B6006CE56A /* triangleTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = triangleTest.cpp; path = XCodeCppTest.xcodeproj/../triangleTest.cpp; sourceTree = SOURCE_ROOT; };
 		6A89E2BB1C7BFA1A006CE56A /* gpcTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gpcTest.cpp; path = XCodeCppTest.xcodeproj/../gpcTest.cpp; sourceTree = SOURCE_ROOT; };
 		6A91D7A01C992A0800AFDEF7 /* singleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = singleton.cpp; path = XCodeCppTest.xcodeproj/../singleton.cpp; sourceTree = SOURCE_ROOT; };
+		6ACB10A11D13CD3D00F53C9E /* octreeTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = octreeTest.cpp; path = XCodeCppTest.xcodeproj/../octreeTest.cpp; sourceTree = SOURCE_ROOT; };
+		6ACB10AC1D13E73200F53C9E /* ConsoleTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConsoleTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACB10AE1D13E73200F53C9E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6ACC45DB1C86D6FF00348904 /* xmlTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmlTest.cpp; path = XCodeCppTest.xcodeproj/../xmlTest.cpp; sourceTree = SOURCE_ROOT; };
 		6AE07A391C0BE22600563A09 /* XCodeCppTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XCodeCppTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE07A3C1C0BE22600563A09 /* jsonTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jsonTest.cpp; sourceTree = "<group>"; };
@@ -84,13 +101,22 @@
 		6AE9A3E91CD9E6F900BE20C5 /* point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = point.h; path = polyline/point.h; sourceTree = "<group>"; };
 		6AE9A3EB1CD9E6F900BE20C5 /* vaser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vaser.h; path = polyline/vaser.h; sourceTree = "<group>"; };
 		6AE9A3ED1CD9E96F00BE20C5 /* vertex_array_holder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vertex_array_holder.h; path = polyline/vertex_array_holder.h; sourceTree = "<group>"; };
+		6AF362AD1D0FFCA6002ECEBA /* lokiTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lokiTest.cpp; path = XCodeCppTest.xcodeproj/../lokiTest.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6ACB10A91D13E73200F53C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6AE07A361C0BE22600563A09 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AF362AF1D100346002ECEBA /* loki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,9 +204,18 @@
 			name = gpc;
 			sourceTree = "<group>";
 		};
+		6ACB10AD1D13E73200F53C9E /* ConsoleTest */ = {
+			isa = PBXGroup;
+			children = (
+				6ACB10AE1D13E73200F53C9E /* main.cpp */,
+			);
+			path = ConsoleTest;
+			sourceTree = "<group>";
+		};
 		6AE07A301C0BE22600563A09 = {
 			isa = PBXGroup;
 			children = (
+				6A271ED61D0FFBA90016A118 /* loki.framework */,
 				6A01C7501CEC0F0000B0857E /* polygontri */,
 				6AE9A3E61CD9E5C200BE20C5 /* Polyline */,
 				6A4D91C31CB38E83006036C4 /* test */,
@@ -189,6 +224,7 @@
 				6A3D949D1C61F4D6002016E8 /* triangle */,
 				6A7FAA791C1E7323007DBB6A /* json */,
 				6AE07A3B1C0BE22600563A09 /* XCodeCppTest */,
+				6ACB10AD1D13E73200F53C9E /* ConsoleTest */,
 				6AE07A3A1C0BE22600563A09 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -197,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				6AE07A391C0BE22600563A09 /* XCodeCppTest */,
+				6ACB10AC1D13E73200F53C9E /* ConsoleTest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,7 +241,9 @@
 		6AE07A3B1C0BE22600563A09 /* XCodeCppTest */ = {
 			isa = PBXGroup;
 			children = (
-				6A01C7871CEC40AE00B0857E /* triangleLibTest.cpp */,
+				6ACB10A11D13CD3D00F53C9E /* octreeTest.cpp */,
+				6AF362AD1D0FFCA6002ECEBA /* lokiTest.cpp */,
+				6A01C7871CEC40AE00B0857E /* hashmapTest.cpp */,
 				6A76AF991CCF00F70048AD43 /* test.cpp */,
 				6A76AF971CCEFF7A0048AD43 /* memfuncpointer.cpp */,
 				6A721DC41CD9F4BE008F666C /* 2dPolylineTest.cpp */,
@@ -233,6 +272,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6ACB10AB1D13E73200F53C9E /* ConsoleTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ACB10B01D13E73200F53C9E /* Build configuration list for PBXNativeTarget "ConsoleTest" */;
+			buildPhases = (
+				6ACB10A81D13E73200F53C9E /* Sources */,
+				6ACB10A91D13E73200F53C9E /* Frameworks */,
+				6ACB10AA1D13E73200F53C9E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConsoleTest;
+			productName = ConsoleTest;
+			productReference = 6ACB10AC1D13E73200F53C9E /* ConsoleTest */;
+			productType = "com.apple.product-type.tool";
+		};
 		6AE07A381C0BE22600563A09 /* XCodeCppTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AE07A401C0BE22600563A09 /* Build configuration list for PBXNativeTarget "XCodeCppTest" */;
@@ -259,6 +315,9 @@
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = TuLigen;
 				TargetAttributes = {
+					6ACB10AB1D13E73200F53C9E = {
+						CreatedOnToolsVersion = 6.4;
+					};
 					6AE07A381C0BE22600563A09 = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -270,6 +329,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				English,
 			);
 			mainGroup = 6AE07A301C0BE22600563A09;
 			productRefGroup = 6AE07A3A1C0BE22600563A09 /* Products */;
@@ -277,11 +337,20 @@
 			projectRoot = "";
 			targets = (
 				6AE07A381C0BE22600563A09 /* XCodeCppTest */,
+				6ACB10AB1D13E73200F53C9E /* ConsoleTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6ACB10A81D13E73200F53C9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACB10AF1D13E73200F53C9E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6AE07A351C0BE22600563A09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -292,15 +361,17 @@
 				6A91D7A21C992A0800AFDEF7 /* singleton.cpp in Sources */,
 				6A3B60F31C86D68A00FD7A31 /* tinyxml.cpp in Sources */,
 				6A3B60F21C86D68A00FD7A31 /* tinystr.cpp in Sources */,
-				6A01C7881CEC40AE00B0857E /* triangleLibTest.cpp in Sources */,
+				6A01C7881CEC40AE00B0857E /* hashmapTest.cpp in Sources */,
 				6AE07A3D1C0BE22600563A09 /* jsonTest.cpp in Sources */,
 				6A721DC51CD9F4BE008F666C /* 2dPolylineTest.cpp in Sources */,
 				6A76AF9A1CCF00F70048AD43 /* test.cpp in Sources */,
 				6A01C7821CEC3E1E00B0857E /* gpc.c in Sources */,
 				6AE9A3E81CD9E5F200BE20C5 /* polyline.cpp in Sources */,
+				6AF362AE1D0FFCA6002ECEBA /* lokiTest.cpp in Sources */,
 				6A3B60F51C86D68A00FD7A31 /* tinyxmlparser.cpp in Sources */,
 				6A89E2BC1C7BFA1A006CE56A /* gpcTest.cpp in Sources */,
 				6A733A911CC0993400B55C5D /* utf8-unicode.cpp in Sources */,
+				6ACB10A21D13CD3D00F53C9E /* octreeTest.cpp in Sources */,
 				6A70228D1CACF83700817D59 /* templateTest.cpp in Sources */,
 				6ACC45DC1C86D6FF00348904 /* xmlTest.cpp in Sources */,
 				6A01C7621CEC0F0000B0857E /* misc.c in Sources */,
@@ -315,6 +386,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		6ACB10B11D13E73200F53C9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					./rapidjson,
+					./triangle,
+					./polygontri,
+					"$(MYPATH)/include",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6ACB10B21D13E73200F53C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					./rapidjson,
+					./triangle,
+					./polygontri,
+					"$(MYPATH)/include",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		6AE07A3E1C0BE22600563A09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -410,11 +517,16 @@
 		6AE07A411C0BE22600563A09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/loki/lib",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/rdpidjson",
 				);
+				LIBRARY_SEARCH_PATHS = /Users/TLG/Documents/GitHub/XCodeCppTest/loki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -422,11 +534,16 @@
 		6AE07A421C0BE22600563A09 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/loki/lib",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/rdpidjson",
 				);
+				LIBRARY_SEARCH_PATHS = /Users/TLG/Documents/GitHub/XCodeCppTest/loki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -434,6 +551,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6ACB10B01D13E73200F53C9E /* Build configuration list for PBXNativeTarget "ConsoleTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACB10B11D13E73200F53C9E /* Debug */,
+				6ACB10B21D13E73200F53C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6AE07A341C0BE22600563A09 /* Build configuration list for PBXProject "XCodeCppTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

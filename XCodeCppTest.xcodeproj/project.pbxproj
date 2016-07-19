@@ -15,6 +15,9 @@
 		6A01C7821CEC3E1E00B0857E /* gpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C7801CEC3E1E00B0857E /* gpc.c */; };
 		6A01C7851CEC401A00B0857E /* triangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C7831CEC401A00B0857E /* triangle.c */; };
 		6A01C7881CEC40AE00B0857E /* hashmapTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C7871CEC40AE00B0857E /* hashmapTest.cpp */; };
+		6A08B8551D3DC762008CE764 /* nedmalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A08B8531D3DC762008CE764 /* nedmalloc.c */; };
+		6A2A18141D3CDCC800A7DE13 /* dlmamlloc.h in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A18121D3CDCC800A7DE13 /* dlmamlloc.h */; };
+		6A2DAE061D1C0F620003A481 /* geometryTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A2DAE051D1C0F620003A481 /* geometryTest.cpp */; };
 		6A3B60F21C86D68A00FD7A31 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3B60EE1C86D68A00FD7A31 /* tinystr.cpp */; };
 		6A3B60F31C86D68A00FD7A31 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3B60EF1C86D68A00FD7A31 /* tinyxml.cpp */; };
 		6A3B60F41C86D68A00FD7A31 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3B60F01C86D68A00FD7A31 /* tinyxmlerror.cpp */; };
@@ -28,7 +31,7 @@
 		6A89E2BC1C7BFA1A006CE56A /* gpcTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A89E2BB1C7BFA1A006CE56A /* gpcTest.cpp */; };
 		6A91D7A21C992A0800AFDEF7 /* singleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A91D7A01C992A0800AFDEF7 /* singleton.cpp */; };
 		6ACB10A21D13CD3D00F53C9E /* octreeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB10A11D13CD3D00F53C9E /* octreeTest.cpp */; };
-		6ACB10AF1D13E73200F53C9E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB10AE1D13E73200F53C9E /* main.cpp */; };
+		6ACB10AF1D13E73200F53C9E /* memtest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB10AE1D13E73200F53C9E /* memtest.cpp */; };
 		6ACC45DC1C86D6FF00348904 /* xmlTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6ACC45DB1C86D6FF00348904 /* xmlTest.cpp */; };
 		6AE07A3D1C0BE22600563A09 /* jsonTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AE07A3C1C0BE22600563A09 /* jsonTest.cpp */; };
 		6AE9A3E81CD9E5F200BE20C5 /* polyline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AE9A3E71CD9E5F200BE20C5 /* polyline.cpp */; };
@@ -72,7 +75,232 @@
 		6A01C7831CEC401A00B0857E /* triangle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = triangle.c; path = triangle/triangle.c; sourceTree = "<group>"; };
 		6A01C7841CEC401A00B0857E /* triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = triangle.h; path = triangle/triangle.h; sourceTree = "<group>"; };
 		6A01C7871CEC40AE00B0857E /* hashmapTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hashmapTest.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		6A08B8521D3DC762008CE764 /* malloc.c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = malloc.c.h; path = mem/malloc.c.h; sourceTree = "<group>"; };
+		6A08B8531D3DC762008CE764 /* nedmalloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nedmalloc.c; path = mem/nedmalloc.c; sourceTree = "<group>"; };
+		6A08B8541D3DC762008CE764 /* nedmalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nedmalloc.h; path = mem/nedmalloc.h; sourceTree = "<group>"; };
 		6A271ED61D0FFBA90016A118 /* loki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = loki.framework; path = loki/lib/loki.framework; sourceTree = "<group>"; };
+		6A2A18121D3CDCC800A7DE13 /* dlmamlloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dlmamlloc.h; path = mem/dlmamlloc.h; sourceTree = "<group>"; };
+		6A2A18131D3CDCC800A7DE13 /* dlmamlloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dlmamlloc.cpp; path = mem/dlmamlloc.cpp; sourceTree = "<group>"; };
+		6A2DAE051D1C0F620003A481 /* geometryTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = geometryTest.cpp; path = XCodeCppTest.xcodeproj/../geometryTest.cpp; sourceTree = SOURCE_ROOT; };
+		6A2DAE0A1D1C10C00003A481 /* _box2_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "_box2_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE0B1D1C10C00003A481 /* _box2_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _box2_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE0C1D1C10C00003A481 /* _box3_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "_box3_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE0D1D1C10C00003A481 /* _box3_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _box3_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE0E1D1C10C00003A481 /* _circle2_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "_circle2_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE0F1D1C10C00003A481 /* _circle2_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _circle2_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE101D1C10C00003A481 /* _complex_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "_complex_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE111D1C10C00003A481 /* _complex_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _complex_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE121D1C10C00003A481 /* _geometry_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "_geometry_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE131D1C10C00003A481 /* _geometry_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _geometry_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE141D1C10C00003A481 /* _matrix3_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "_matrix3_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE151D1C10C00003A481 /* _matrix3_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _matrix3_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE161D1C10C00003A481 /* _matrix4_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "_matrix4_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE171D1C10C00003A481 /* _matrix4_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _matrix4_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE181D1C10C00003A481 /* _plane_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "_plane_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE191D1C10C00003A481 /* _plane_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _plane_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE1A1D1C10C00003A481 /* _quat_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "_quat_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE1B1D1C10C00003A481 /* _quat_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _quat_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE1C1D1C10C00003A481 /* _ray_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "_ray_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE1D1D1C10C00003A481 /* _ray_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _ray_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE1E1D1C10C00003A481 /* _sphere_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "_sphere_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE1F1D1C10C00003A481 /* _sphere_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _sphere_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE201D1C10C00003A481 /* _vec2_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "_vec2_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE211D1C10C00003A481 /* _vec2_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _vec2_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE221D1C10C00003A481 /* _vec3_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "_vec3_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE231D1C10C00003A481 /* _vec3_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _vec3_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE241D1C10C00003A481 /* _vec4_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "_vec4_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE251D1C10C00003A481 /* _vec4_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _vec4_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE261D1C10C00003A481 /* _xf_box3_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "_xf_box3_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE271D1C10C00003A481 /* _xf_box3_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _xf_box3_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE281D1C10C00003A481 /* annotated.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = annotated.html; sourceTree = "<group>"; };
+		6A2DAE291D1C10C00003A481 /* box2_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "box2_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE2A1D1C10C00003A481 /* box2_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = box2_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE2B1D1C10C00003A481 /* box3_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "box3_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE2C1D1C10C00003A481 /* box3_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = box3_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE2D1D1C10C00003A481 /* circle_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "circle_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE2E1D1C10C00003A481 /* circle_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = circle_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE2F1D1C10C00003A481 /* classes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classes.html; sourceTree = "<group>"; };
+		6A2DAE301D1C10C00003A481 /* classgeo_1_1_box2-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgeo_1_1_box2-members.html"; sourceTree = "<group>"; };
+		6A2DAE311D1C10C00003A481 /* classgeo_1_1_box2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgeo_1_1_box2.html; sourceTree = "<group>"; };
+		6A2DAE321D1C10C00003A481 /* classgeo_1_1_box3-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgeo_1_1_box3-members.html"; sourceTree = "<group>"; };
+		6A2DAE331D1C10C00003A481 /* classgeo_1_1_box3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgeo_1_1_box3.html; sourceTree = "<group>"; };
+		6A2DAE341D1C10C00003A481 /* classgeo_1_1_box3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classgeo_1_1_box3.png; sourceTree = "<group>"; };
+		6A2DAE351D1C10C00003A481 /* classgeo_1_1_circle2-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgeo_1_1_circle2-members.html"; sourceTree = "<group>"; };
+		6A2DAE361D1C10C00003A481 /* classgeo_1_1_circle2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgeo_1_1_circle2.html; sourceTree = "<group>"; };
+		6A2DAE371D1C10C00003A481 /* classgeo_1_1_complex-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgeo_1_1_complex-members.html"; sourceTree = "<group>"; };
+		6A2DAE381D1C10C00003A481 /* classgeo_1_1_complex.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgeo_1_1_complex.html; sourceTree = "<group>"; };
+		6A2DAE391D1C10C00003A481 /* classgeo_1_1_matrix3-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgeo_1_1_matrix3-members.html"; sourceTree = "<group>"; };
+		6A2DAE3A1D1C10C00003A481 /* classgeo_1_1_matrix3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgeo_1_1_matrix3.html; sourceTree = "<group>"; };
+		6A2DAE3B1D1C10C00003A481 /* classgeo_1_1_matrix4-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgeo_1_1_matrix4-members.html"; sourceTree = "<group>"; };
+		6A2DAE3C1D1C10C00003A481 /* classgeo_1_1_matrix4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgeo_1_1_matrix4.html; sourceTree = "<group>"; };
+		6A2DAE3D1D1C10C00003A481 /* classgeo_1_1_plane-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgeo_1_1_plane-members.html"; sourceTree = "<group>"; };
+		6A2DAE3E1D1C10C00003A481 /* classgeo_1_1_plane.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgeo_1_1_plane.html; sourceTree = "<group>"; };
+		6A2DAE3F1D1C10C00003A481 /* classgeo_1_1_quat-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgeo_1_1_quat-members.html"; sourceTree = "<group>"; };
+		6A2DAE401D1C10C00003A481 /* classgeo_1_1_quat.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgeo_1_1_quat.html; sourceTree = "<group>"; };
+		6A2DAE411D1C10C00003A481 /* classgeo_1_1_ray-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgeo_1_1_ray-members.html"; sourceTree = "<group>"; };
+		6A2DAE421D1C10C00003A481 /* classgeo_1_1_ray.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgeo_1_1_ray.html; sourceTree = "<group>"; };
+		6A2DAE431D1C10C00003A481 /* classgeo_1_1_sphere-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgeo_1_1_sphere-members.html"; sourceTree = "<group>"; };
+		6A2DAE441D1C10C00003A481 /* classgeo_1_1_sphere.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgeo_1_1_sphere.html; sourceTree = "<group>"; };
+		6A2DAE451D1C10C00003A481 /* classgeo_1_1_vec2-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgeo_1_1_vec2-members.html"; sourceTree = "<group>"; };
+		6A2DAE461D1C10C00003A481 /* classgeo_1_1_vec2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgeo_1_1_vec2.html; sourceTree = "<group>"; };
+		6A2DAE471D1C10C00003A481 /* classgeo_1_1_vec3-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgeo_1_1_vec3-members.html"; sourceTree = "<group>"; };
+		6A2DAE481D1C10C00003A481 /* classgeo_1_1_vec3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgeo_1_1_vec3.html; sourceTree = "<group>"; };
+		6A2DAE491D1C10C00003A481 /* classgeo_1_1_vec4-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgeo_1_1_vec4-members.html"; sourceTree = "<group>"; };
+		6A2DAE4A1D1C10C00003A481 /* classgeo_1_1_vec4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgeo_1_1_vec4.html; sourceTree = "<group>"; };
+		6A2DAE4B1D1C10C00003A481 /* classgeo_1_1_xf_box3-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgeo_1_1_xf_box3-members.html"; sourceTree = "<group>"; };
+		6A2DAE4C1D1C10C00003A481 /* classgeo_1_1_xf_box3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgeo_1_1_xf_box3.html; sourceTree = "<group>"; };
+		6A2DAE4D1D1C10C00003A481 /* classgeo_1_1_xf_box3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classgeo_1_1_xf_box3.png; sourceTree = "<group>"; };
+		6A2DAE4E1D1C10C00003A481 /* classgtl_1_1_box2-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgtl_1_1_box2-members.html"; sourceTree = "<group>"; };
+		6A2DAE4F1D1C10C00003A481 /* classgtl_1_1_box2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgtl_1_1_box2.html; sourceTree = "<group>"; };
+		6A2DAE501D1C10C00003A481 /* classgtl_1_1_box3-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgtl_1_1_box3-members.html"; sourceTree = "<group>"; };
+		6A2DAE511D1C10C00003A481 /* classgtl_1_1_box3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgtl_1_1_box3.html; sourceTree = "<group>"; };
+		6A2DAE521D1C10C00003A481 /* classgtl_1_1_box3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classgtl_1_1_box3.png; sourceTree = "<group>"; };
+		6A2DAE531D1C10C00003A481 /* classgtl_1_1_circle-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgtl_1_1_circle-members.html"; sourceTree = "<group>"; };
+		6A2DAE541D1C10C00003A481 /* classgtl_1_1_circle.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgtl_1_1_circle.html; sourceTree = "<group>"; };
+		6A2DAE551D1C10C00003A481 /* classgtl_1_1_complex-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgtl_1_1_complex-members.html"; sourceTree = "<group>"; };
+		6A2DAE561D1C10C00003A481 /* classgtl_1_1_complex.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgtl_1_1_complex.html; sourceTree = "<group>"; };
+		6A2DAE571D1C10C00003A481 /* classgtl_1_1_matrix3-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgtl_1_1_matrix3-members.html"; sourceTree = "<group>"; };
+		6A2DAE581D1C10C00003A481 /* classgtl_1_1_matrix3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgtl_1_1_matrix3.html; sourceTree = "<group>"; };
+		6A2DAE591D1C10C00003A481 /* classgtl_1_1_matrix4-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgtl_1_1_matrix4-members.html"; sourceTree = "<group>"; };
+		6A2DAE5A1D1C10C00003A481 /* classgtl_1_1_matrix4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgtl_1_1_matrix4.html; sourceTree = "<group>"; };
+		6A2DAE5B1D1C10C00003A481 /* classgtl_1_1_plane-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgtl_1_1_plane-members.html"; sourceTree = "<group>"; };
+		6A2DAE5C1D1C10C00003A481 /* classgtl_1_1_plane.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgtl_1_1_plane.html; sourceTree = "<group>"; };
+		6A2DAE5D1D1C10C00003A481 /* classgtl_1_1_quat-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgtl_1_1_quat-members.html"; sourceTree = "<group>"; };
+		6A2DAE5E1D1C10C00003A481 /* classgtl_1_1_quat.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgtl_1_1_quat.html; sourceTree = "<group>"; };
+		6A2DAE5F1D1C10C00003A481 /* classgtl_1_1_ray-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgtl_1_1_ray-members.html"; sourceTree = "<group>"; };
+		6A2DAE601D1C10C00003A481 /* classgtl_1_1_ray.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgtl_1_1_ray.html; sourceTree = "<group>"; };
+		6A2DAE611D1C10C00003A481 /* classgtl_1_1_sphere-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgtl_1_1_sphere-members.html"; sourceTree = "<group>"; };
+		6A2DAE621D1C10C00003A481 /* classgtl_1_1_sphere.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgtl_1_1_sphere.html; sourceTree = "<group>"; };
+		6A2DAE631D1C10C00003A481 /* classgtl_1_1_vec2-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgtl_1_1_vec2-members.html"; sourceTree = "<group>"; };
+		6A2DAE641D1C10C00003A481 /* classgtl_1_1_vec2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgtl_1_1_vec2.html; sourceTree = "<group>"; };
+		6A2DAE651D1C10C00003A481 /* classgtl_1_1_vec3-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgtl_1_1_vec3-members.html"; sourceTree = "<group>"; };
+		6A2DAE661D1C10C00003A481 /* classgtl_1_1_vec3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgtl_1_1_vec3.html; sourceTree = "<group>"; };
+		6A2DAE671D1C10C00003A481 /* classgtl_1_1_vec4-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgtl_1_1_vec4-members.html"; sourceTree = "<group>"; };
+		6A2DAE681D1C10C00003A481 /* classgtl_1_1_vec4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgtl_1_1_vec4.html; sourceTree = "<group>"; };
+		6A2DAE691D1C10C00003A481 /* classgtl_1_1_xf_box3-members.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "classgtl_1_1_xf_box3-members.html"; sourceTree = "<group>"; };
+		6A2DAE6A1D1C10C00003A481 /* classgtl_1_1_xf_box3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classgtl_1_1_xf_box3.html; sourceTree = "<group>"; };
+		6A2DAE6B1D1C10C00003A481 /* classgtl_1_1_xf_box3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classgtl_1_1_xf_box3.png; sourceTree = "<group>"; };
+		6A2DAE6C1D1C10C00003A481 /* complex_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "complex_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAE6D1D1C10C00003A481 /* complex_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = complex_8hpp.html; sourceTree = "<group>"; };
+		6A2DAE6E1D1C10C00003A481 /* dir_562e9cdbb79a04f05979e49e3df4343e.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dir_562e9cdbb79a04f05979e49e3df4343e.html; sourceTree = "<group>"; };
+		6A2DAE6F1D1C10C00003A481 /* dir_8ae3cd1b06edf79ecf218b6aae448d00.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dir_8ae3cd1b06edf79ecf218b6aae448d00.html; sourceTree = "<group>"; };
+		6A2DAE701D1C10C00003A481 /* dir_a0362990858c4ab15dab14bdb5d60c61.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dir_a0362990858c4ab15dab14bdb5d60c61.html; sourceTree = "<group>"; };
+		6A2DAE711D1C10C00003A481 /* dirs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dirs.html; sourceTree = "<group>"; };
+		6A2DAE721D1C10C00003A481 /* doxygen.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = doxygen.css; sourceTree = "<group>"; };
+		6A2DAE731D1C10C00003A481 /* doxygen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doxygen.png; sourceTree = "<group>"; };
+		6A2DAE741D1C10C00003A481 /* files.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = files.html; sourceTree = "<group>"; };
+		6A2DAE751D1C10C00003A481 /* ftv2blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2blank.png; sourceTree = "<group>"; };
+		6A2DAE761D1C10C00003A481 /* ftv2doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2doc.png; sourceTree = "<group>"; };
+		6A2DAE771D1C10C00003A481 /* ftv2folderclosed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2folderclosed.png; sourceTree = "<group>"; };
+		6A2DAE781D1C10C00003A481 /* ftv2folderopen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2folderopen.png; sourceTree = "<group>"; };
+		6A2DAE791D1C10C00003A481 /* ftv2lastnode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2lastnode.png; sourceTree = "<group>"; };
+		6A2DAE7A1D1C10C00003A481 /* ftv2link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2link.png; sourceTree = "<group>"; };
+		6A2DAE7B1D1C10C00003A481 /* ftv2mlastnode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2mlastnode.png; sourceTree = "<group>"; };
+		6A2DAE7C1D1C10C00003A481 /* ftv2mnode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2mnode.png; sourceTree = "<group>"; };
+		6A2DAE7D1D1C10C00003A481 /* ftv2node.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2node.png; sourceTree = "<group>"; };
+		6A2DAE7E1D1C10C00003A481 /* ftv2plastnode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2plastnode.png; sourceTree = "<group>"; };
+		6A2DAE7F1D1C10C00003A481 /* ftv2pnode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2pnode.png; sourceTree = "<group>"; };
+		6A2DAE801D1C10C00003A481 /* ftv2vertline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ftv2vertline.png; sourceTree = "<group>"; };
+		6A2DAE811D1C10C00003A481 /* functions.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions.html; sourceTree = "<group>"; };
+		6A2DAE821D1C10C00003A481 /* functions_0x63.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x63.html; sourceTree = "<group>"; };
+		6A2DAE831D1C10C00003A481 /* functions_0x64.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x64.html; sourceTree = "<group>"; };
+		6A2DAE841D1C10C00003A481 /* functions_0x65.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x65.html; sourceTree = "<group>"; };
+		6A2DAE851D1C10C00003A481 /* functions_0x67.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x67.html; sourceTree = "<group>"; };
+		6A2DAE861D1C10C00003A481 /* functions_0x69.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x69.html; sourceTree = "<group>"; };
+		6A2DAE871D1C10C00003A481 /* functions_0x6c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x6c.html; sourceTree = "<group>"; };
+		6A2DAE881D1C10C00003A481 /* functions_0x6d.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x6d.html; sourceTree = "<group>"; };
+		6A2DAE891D1C10C00003A481 /* functions_0x6e.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x6e.html; sourceTree = "<group>"; };
+		6A2DAE8A1D1C10C00003A481 /* functions_0x6f.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x6f.html; sourceTree = "<group>"; };
+		6A2DAE8B1D1C10C00003A481 /* functions_0x70.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x70.html; sourceTree = "<group>"; };
+		6A2DAE8C1D1C10C00003A481 /* functions_0x71.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x71.html; sourceTree = "<group>"; };
+		6A2DAE8D1D1C10C00003A481 /* functions_0x72.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x72.html; sourceTree = "<group>"; };
+		6A2DAE8E1D1C10C00003A481 /* functions_0x73.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x73.html; sourceTree = "<group>"; };
+		6A2DAE8F1D1C10C00003A481 /* functions_0x74.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x74.html; sourceTree = "<group>"; };
+		6A2DAE901D1C10C00003A481 /* functions_0x76.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x76.html; sourceTree = "<group>"; };
+		6A2DAE911D1C10C00003A481 /* functions_0x77.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x77.html; sourceTree = "<group>"; };
+		6A2DAE921D1C10C00003A481 /* functions_0x78.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x78.html; sourceTree = "<group>"; };
+		6A2DAE931D1C10C00003A481 /* functions_0x79.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x79.html; sourceTree = "<group>"; };
+		6A2DAE941D1C10C00003A481 /* functions_0x7a.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x7a.html; sourceTree = "<group>"; };
+		6A2DAE951D1C10C00003A481 /* functions_0x7e.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_0x7e.html; sourceTree = "<group>"; };
+		6A2DAE961D1C10C00003A481 /* functions_func.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func.html; sourceTree = "<group>"; };
+		6A2DAE971D1C10C00003A481 /* functions_func_0x63.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x63.html; sourceTree = "<group>"; };
+		6A2DAE981D1C10C00003A481 /* functions_func_0x64.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x64.html; sourceTree = "<group>"; };
+		6A2DAE991D1C10C00003A481 /* functions_func_0x65.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x65.html; sourceTree = "<group>"; };
+		6A2DAE9A1D1C10C00003A481 /* functions_func_0x67.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x67.html; sourceTree = "<group>"; };
+		6A2DAE9B1D1C10C00003A481 /* functions_func_0x69.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x69.html; sourceTree = "<group>"; };
+		6A2DAE9C1D1C10C00003A481 /* functions_func_0x6c.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x6c.html; sourceTree = "<group>"; };
+		6A2DAE9D1D1C10C00003A481 /* functions_func_0x6d.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x6d.html; sourceTree = "<group>"; };
+		6A2DAE9E1D1C10C00003A481 /* functions_func_0x6e.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x6e.html; sourceTree = "<group>"; };
+		6A2DAE9F1D1C10C00003A481 /* functions_func_0x6f.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x6f.html; sourceTree = "<group>"; };
+		6A2DAEA01D1C10C00003A481 /* functions_func_0x70.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x70.html; sourceTree = "<group>"; };
+		6A2DAEA11D1C10C00003A481 /* functions_func_0x71.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x71.html; sourceTree = "<group>"; };
+		6A2DAEA21D1C10C00003A481 /* functions_func_0x72.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x72.html; sourceTree = "<group>"; };
+		6A2DAEA31D1C10C00003A481 /* functions_func_0x73.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x73.html; sourceTree = "<group>"; };
+		6A2DAEA41D1C10C00003A481 /* functions_func_0x74.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x74.html; sourceTree = "<group>"; };
+		6A2DAEA51D1C10C00003A481 /* functions_func_0x76.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x76.html; sourceTree = "<group>"; };
+		6A2DAEA61D1C10C00003A481 /* functions_func_0x77.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x77.html; sourceTree = "<group>"; };
+		6A2DAEA71D1C10C00003A481 /* functions_func_0x78.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x78.html; sourceTree = "<group>"; };
+		6A2DAEA81D1C10C00003A481 /* functions_func_0x79.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x79.html; sourceTree = "<group>"; };
+		6A2DAEA91D1C10C00003A481 /* functions_func_0x7a.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x7a.html; sourceTree = "<group>"; };
+		6A2DAEAA1D1C10C00003A481 /* functions_func_0x7e.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_func_0x7e.html; sourceTree = "<group>"; };
+		6A2DAEAB1D1C10C00003A481 /* functions_rela.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = functions_rela.html; sourceTree = "<group>"; };
+		6A2DAEAC1D1C10C00003A481 /* globals.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = globals.html; sourceTree = "<group>"; };
+		6A2DAEAD1D1C10C00003A481 /* globals_defs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = globals_defs.html; sourceTree = "<group>"; };
+		6A2DAEAE1D1C10C00003A481 /* gtl_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "gtl_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAEAF1D1C10C00003A481 /* gtl_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gtl_8hpp.html; sourceTree = "<group>"; };
+		6A2DAEB01D1C10C00003A481 /* hierarchy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hierarchy.html; sourceTree = "<group>"; };
+		6A2DAEB11D1C10C00003A481 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		6A2DAEB21D1C10C00003A481 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		6A2DAEB31D1C10C00003A481 /* main.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = main.html; sourceTree = "<group>"; };
+		6A2DAEB41D1C10C00003A481 /* mainpage_8dox.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mainpage_8dox.html; sourceTree = "<group>"; };
+		6A2DAEB51D1C10C00003A481 /* matrix3_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "matrix3_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAEB61D1C10C00003A481 /* matrix3_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = matrix3_8hpp.html; sourceTree = "<group>"; };
+		6A2DAEB71D1C10C00003A481 /* matrix4_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "matrix4_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAEB81D1C10C00003A481 /* matrix4_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = matrix4_8hpp.html; sourceTree = "<group>"; };
+		6A2DAEB91D1C10C00003A481 /* namespacegeo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = namespacegeo.html; sourceTree = "<group>"; };
+		6A2DAEBA1D1C10C00003A481 /* namespacegtl.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = namespacegtl.html; sourceTree = "<group>"; };
+		6A2DAEBB1D1C10C00003A481 /* namespacemembers.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = namespacemembers.html; sourceTree = "<group>"; };
+		6A2DAEBC1D1C10C00003A481 /* namespacemembers_func.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = namespacemembers_func.html; sourceTree = "<group>"; };
+		6A2DAEBD1D1C10C00003A481 /* namespacemembers_type.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = namespacemembers_type.html; sourceTree = "<group>"; };
+		6A2DAEBE1D1C10C00003A481 /* namespaces.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = namespaces.html; sourceTree = "<group>"; };
+		6A2DAEBF1D1C10C00003A481 /* plane_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "plane_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAEC01D1C10C00003A481 /* plane_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = plane_8hpp.html; sourceTree = "<group>"; };
+		6A2DAEC11D1C10C00003A481 /* quat_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "quat_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAEC21D1C10C00003A481 /* quat_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = quat_8hpp.html; sourceTree = "<group>"; };
+		6A2DAEC31D1C10C00003A481 /* ray_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ray_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAEC41D1C10C00003A481 /* ray_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ray_8hpp.html; sourceTree = "<group>"; };
+		6A2DAEC51D1C10C00003A481 /* sphere_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "sphere_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAEC61D1C10C00003A481 /* sphere_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sphere_8hpp.html; sourceTree = "<group>"; };
+		6A2DAEC71D1C10C00003A481 /* tab_b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tab_b.gif; sourceTree = "<group>"; };
+		6A2DAEC81D1C10C00003A481 /* tab_l.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tab_l.gif; sourceTree = "<group>"; };
+		6A2DAEC91D1C10C00003A481 /* tab_r.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tab_r.gif; sourceTree = "<group>"; };
+		6A2DAECA1D1C10C00003A481 /* tabs.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = tabs.css; sourceTree = "<group>"; };
+		6A2DAECB1D1C10C00003A481 /* tree.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tree.html; sourceTree = "<group>"; };
+		6A2DAECC1D1C10C00003A481 /* vec2_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "vec2_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAECD1D1C10C00003A481 /* vec2_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = vec2_8hpp.html; sourceTree = "<group>"; };
+		6A2DAECE1D1C10C00003A481 /* vec3_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "vec3_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAECF1D1C10C00003A481 /* vec3_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = vec3_8hpp.html; sourceTree = "<group>"; };
+		6A2DAED01D1C10C00003A481 /* vec4_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "vec4_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAED11D1C10C00003A481 /* vec4_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = vec4_8hpp.html; sourceTree = "<group>"; };
+		6A2DAED21D1C10C00003A481 /* xfbox3_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "xfbox3_8hpp-source.html"; sourceTree = "<group>"; };
+		6A2DAED31D1C10C00003A481 /* xfbox3_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = xfbox3_8hpp.html; sourceTree = "<group>"; };
+		6A2DAED41D1C10C00003A481 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		6A2DAED51D1C10C00003A481 /* Logo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Logo.pdf; sourceTree = "<group>"; };
+		6A2DAED81D1C10C00003A481 /* box2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = box2.hpp; sourceTree = "<group>"; };
+		6A2DAED91D1C10C00003A481 /* box3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = box3.hpp; sourceTree = "<group>"; };
+		6A2DAEDA1D1C10C00003A481 /* circle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = circle.hpp; sourceTree = "<group>"; };
+		6A2DAEDB1D1C10C00003A481 /* complex.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = complex.hpp; sourceTree = "<group>"; };
+		6A2DAEDC1D1C10C00003A481 /* gtl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = gtl.hpp; sourceTree = "<group>"; };
+		6A2DAEDD1D1C10C00003A481 /* matrix3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = matrix3.hpp; sourceTree = "<group>"; };
+		6A2DAEDE1D1C10C00003A481 /* matrix4.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = matrix4.hpp; sourceTree = "<group>"; };
+		6A2DAEDF1D1C10C00003A481 /* plane.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = plane.hpp; sourceTree = "<group>"; };
+		6A2DAEE01D1C10C00003A481 /* quat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = quat.hpp; sourceTree = "<group>"; };
+		6A2DAEE11D1C10C00003A481 /* ray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ray.hpp; sourceTree = "<group>"; };
+		6A2DAEE21D1C10C00003A481 /* sphere.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sphere.hpp; sourceTree = "<group>"; };
+		6A2DAEE31D1C10C00003A481 /* vec2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vec2.hpp; sourceTree = "<group>"; };
+		6A2DAEE41D1C10C00003A481 /* vec3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vec3.hpp; sourceTree = "<group>"; };
+		6A2DAEE51D1C10C00003A481 /* vec4.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vec4.hpp; sourceTree = "<group>"; };
+		6A2DAEE61D1C10C00003A481 /* xfbox3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = xfbox3.hpp; sourceTree = "<group>"; };
 		6A3B60E81C86D68A00FD7A31 /* MSSCCPRJ.SCC */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MSSCCPRJ.SCC; sourceTree = "<group>"; };
 		6A3B60E91C86D68A00FD7A31 /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinystr.h; sourceTree = "<group>"; };
 		6A3B60EA1C86D68A00FD7A31 /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
@@ -93,7 +321,7 @@
 		6A91D7A01C992A0800AFDEF7 /* singleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = singleton.cpp; path = XCodeCppTest.xcodeproj/../singleton.cpp; sourceTree = SOURCE_ROOT; };
 		6ACB10A11D13CD3D00F53C9E /* octreeTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = octreeTest.cpp; path = XCodeCppTest.xcodeproj/../octreeTest.cpp; sourceTree = SOURCE_ROOT; };
 		6ACB10AC1D13E73200F53C9E /* ConsoleTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConsoleTest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ACB10AE1D13E73200F53C9E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6ACB10AE1D13E73200F53C9E /* memtest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = memtest.cpp; sourceTree = "<group>"; };
 		6ACC45DB1C86D6FF00348904 /* xmlTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmlTest.cpp; path = XCodeCppTest.xcodeproj/../xmlTest.cpp; sourceTree = SOURCE_ROOT; };
 		6AE07A391C0BE22600563A09 /* XCodeCppTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XCodeCppTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE07A3C1C0BE22600563A09 /* jsonTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jsonTest.cpp; sourceTree = "<group>"; };
@@ -137,6 +365,292 @@
 				6A01C75E1CEC0F0000B0857E /* triangulate.h */,
 			);
 			path = polygontri;
+			sourceTree = "<group>";
+		};
+		6A08B8501D3DC44C008CE764 /* dlmalloc */ = {
+			isa = PBXGroup;
+			children = (
+				6A2A18121D3CDCC800A7DE13 /* dlmamlloc.h */,
+				6A2A18131D3CDCC800A7DE13 /* dlmamlloc.cpp */,
+			);
+			name = dlmalloc;
+			sourceTree = "<group>";
+		};
+		6A08B8511D3DC45E008CE764 /* nedmalloc */ = {
+			isa = PBXGroup;
+			children = (
+				6A08B8521D3DC762008CE764 /* malloc.c.h */,
+				6A08B8531D3DC762008CE764 /* nedmalloc.c */,
+				6A08B8541D3DC762008CE764 /* nedmalloc.h */,
+			);
+			name = nedmalloc;
+			sourceTree = "<group>";
+		};
+		6A2A18111D3CDC9600A7DE13 /* Mem */ = {
+			isa = PBXGroup;
+			children = (
+				6A08B8511D3DC45E008CE764 /* nedmalloc */,
+				6A08B8501D3DC44C008CE764 /* dlmalloc */,
+			);
+			name = Mem;
+			sourceTree = "<group>";
+		};
+		6A2DAE071D1C10C00003A481 /* geometry */ = {
+			isa = PBXGroup;
+			children = (
+				6A2DAE081D1C10C00003A481 /* doc */,
+				6A2DAED61D1C10C00003A481 /* include */,
+			);
+			path = geometry;
+			sourceTree = "<group>";
+		};
+		6A2DAE081D1C10C00003A481 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				6A2DAE091D1C10C00003A481 /* html */,
+				6A2DAED41D1C10C00003A481 /* logo.jpg */,
+				6A2DAED51D1C10C00003A481 /* Logo.pdf */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		6A2DAE091D1C10C00003A481 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				6A2DAE0A1D1C10C00003A481 /* _box2_8hpp-source.html */,
+				6A2DAE0B1D1C10C00003A481 /* _box2_8hpp.html */,
+				6A2DAE0C1D1C10C00003A481 /* _box3_8hpp-source.html */,
+				6A2DAE0D1D1C10C00003A481 /* _box3_8hpp.html */,
+				6A2DAE0E1D1C10C00003A481 /* _circle2_8hpp-source.html */,
+				6A2DAE0F1D1C10C00003A481 /* _circle2_8hpp.html */,
+				6A2DAE101D1C10C00003A481 /* _complex_8hpp-source.html */,
+				6A2DAE111D1C10C00003A481 /* _complex_8hpp.html */,
+				6A2DAE121D1C10C00003A481 /* _geometry_8hpp-source.html */,
+				6A2DAE131D1C10C00003A481 /* _geometry_8hpp.html */,
+				6A2DAE141D1C10C00003A481 /* _matrix3_8hpp-source.html */,
+				6A2DAE151D1C10C00003A481 /* _matrix3_8hpp.html */,
+				6A2DAE161D1C10C00003A481 /* _matrix4_8hpp-source.html */,
+				6A2DAE171D1C10C00003A481 /* _matrix4_8hpp.html */,
+				6A2DAE181D1C10C00003A481 /* _plane_8hpp-source.html */,
+				6A2DAE191D1C10C00003A481 /* _plane_8hpp.html */,
+				6A2DAE1A1D1C10C00003A481 /* _quat_8hpp-source.html */,
+				6A2DAE1B1D1C10C00003A481 /* _quat_8hpp.html */,
+				6A2DAE1C1D1C10C00003A481 /* _ray_8hpp-source.html */,
+				6A2DAE1D1D1C10C00003A481 /* _ray_8hpp.html */,
+				6A2DAE1E1D1C10C00003A481 /* _sphere_8hpp-source.html */,
+				6A2DAE1F1D1C10C00003A481 /* _sphere_8hpp.html */,
+				6A2DAE201D1C10C00003A481 /* _vec2_8hpp-source.html */,
+				6A2DAE211D1C10C00003A481 /* _vec2_8hpp.html */,
+				6A2DAE221D1C10C00003A481 /* _vec3_8hpp-source.html */,
+				6A2DAE231D1C10C00003A481 /* _vec3_8hpp.html */,
+				6A2DAE241D1C10C00003A481 /* _vec4_8hpp-source.html */,
+				6A2DAE251D1C10C00003A481 /* _vec4_8hpp.html */,
+				6A2DAE261D1C10C00003A481 /* _xf_box3_8hpp-source.html */,
+				6A2DAE271D1C10C00003A481 /* _xf_box3_8hpp.html */,
+				6A2DAE281D1C10C00003A481 /* annotated.html */,
+				6A2DAE291D1C10C00003A481 /* box2_8hpp-source.html */,
+				6A2DAE2A1D1C10C00003A481 /* box2_8hpp.html */,
+				6A2DAE2B1D1C10C00003A481 /* box3_8hpp-source.html */,
+				6A2DAE2C1D1C10C00003A481 /* box3_8hpp.html */,
+				6A2DAE2D1D1C10C00003A481 /* circle_8hpp-source.html */,
+				6A2DAE2E1D1C10C00003A481 /* circle_8hpp.html */,
+				6A2DAE2F1D1C10C00003A481 /* classes.html */,
+				6A2DAE301D1C10C00003A481 /* classgeo_1_1_box2-members.html */,
+				6A2DAE311D1C10C00003A481 /* classgeo_1_1_box2.html */,
+				6A2DAE321D1C10C00003A481 /* classgeo_1_1_box3-members.html */,
+				6A2DAE331D1C10C00003A481 /* classgeo_1_1_box3.html */,
+				6A2DAE341D1C10C00003A481 /* classgeo_1_1_box3.png */,
+				6A2DAE351D1C10C00003A481 /* classgeo_1_1_circle2-members.html */,
+				6A2DAE361D1C10C00003A481 /* classgeo_1_1_circle2.html */,
+				6A2DAE371D1C10C00003A481 /* classgeo_1_1_complex-members.html */,
+				6A2DAE381D1C10C00003A481 /* classgeo_1_1_complex.html */,
+				6A2DAE391D1C10C00003A481 /* classgeo_1_1_matrix3-members.html */,
+				6A2DAE3A1D1C10C00003A481 /* classgeo_1_1_matrix3.html */,
+				6A2DAE3B1D1C10C00003A481 /* classgeo_1_1_matrix4-members.html */,
+				6A2DAE3C1D1C10C00003A481 /* classgeo_1_1_matrix4.html */,
+				6A2DAE3D1D1C10C00003A481 /* classgeo_1_1_plane-members.html */,
+				6A2DAE3E1D1C10C00003A481 /* classgeo_1_1_plane.html */,
+				6A2DAE3F1D1C10C00003A481 /* classgeo_1_1_quat-members.html */,
+				6A2DAE401D1C10C00003A481 /* classgeo_1_1_quat.html */,
+				6A2DAE411D1C10C00003A481 /* classgeo_1_1_ray-members.html */,
+				6A2DAE421D1C10C00003A481 /* classgeo_1_1_ray.html */,
+				6A2DAE431D1C10C00003A481 /* classgeo_1_1_sphere-members.html */,
+				6A2DAE441D1C10C00003A481 /* classgeo_1_1_sphere.html */,
+				6A2DAE451D1C10C00003A481 /* classgeo_1_1_vec2-members.html */,
+				6A2DAE461D1C10C00003A481 /* classgeo_1_1_vec2.html */,
+				6A2DAE471D1C10C00003A481 /* classgeo_1_1_vec3-members.html */,
+				6A2DAE481D1C10C00003A481 /* classgeo_1_1_vec3.html */,
+				6A2DAE491D1C10C00003A481 /* classgeo_1_1_vec4-members.html */,
+				6A2DAE4A1D1C10C00003A481 /* classgeo_1_1_vec4.html */,
+				6A2DAE4B1D1C10C00003A481 /* classgeo_1_1_xf_box3-members.html */,
+				6A2DAE4C1D1C10C00003A481 /* classgeo_1_1_xf_box3.html */,
+				6A2DAE4D1D1C10C00003A481 /* classgeo_1_1_xf_box3.png */,
+				6A2DAE4E1D1C10C00003A481 /* classgtl_1_1_box2-members.html */,
+				6A2DAE4F1D1C10C00003A481 /* classgtl_1_1_box2.html */,
+				6A2DAE501D1C10C00003A481 /* classgtl_1_1_box3-members.html */,
+				6A2DAE511D1C10C00003A481 /* classgtl_1_1_box3.html */,
+				6A2DAE521D1C10C00003A481 /* classgtl_1_1_box3.png */,
+				6A2DAE531D1C10C00003A481 /* classgtl_1_1_circle-members.html */,
+				6A2DAE541D1C10C00003A481 /* classgtl_1_1_circle.html */,
+				6A2DAE551D1C10C00003A481 /* classgtl_1_1_complex-members.html */,
+				6A2DAE561D1C10C00003A481 /* classgtl_1_1_complex.html */,
+				6A2DAE571D1C10C00003A481 /* classgtl_1_1_matrix3-members.html */,
+				6A2DAE581D1C10C00003A481 /* classgtl_1_1_matrix3.html */,
+				6A2DAE591D1C10C00003A481 /* classgtl_1_1_matrix4-members.html */,
+				6A2DAE5A1D1C10C00003A481 /* classgtl_1_1_matrix4.html */,
+				6A2DAE5B1D1C10C00003A481 /* classgtl_1_1_plane-members.html */,
+				6A2DAE5C1D1C10C00003A481 /* classgtl_1_1_plane.html */,
+				6A2DAE5D1D1C10C00003A481 /* classgtl_1_1_quat-members.html */,
+				6A2DAE5E1D1C10C00003A481 /* classgtl_1_1_quat.html */,
+				6A2DAE5F1D1C10C00003A481 /* classgtl_1_1_ray-members.html */,
+				6A2DAE601D1C10C00003A481 /* classgtl_1_1_ray.html */,
+				6A2DAE611D1C10C00003A481 /* classgtl_1_1_sphere-members.html */,
+				6A2DAE621D1C10C00003A481 /* classgtl_1_1_sphere.html */,
+				6A2DAE631D1C10C00003A481 /* classgtl_1_1_vec2-members.html */,
+				6A2DAE641D1C10C00003A481 /* classgtl_1_1_vec2.html */,
+				6A2DAE651D1C10C00003A481 /* classgtl_1_1_vec3-members.html */,
+				6A2DAE661D1C10C00003A481 /* classgtl_1_1_vec3.html */,
+				6A2DAE671D1C10C00003A481 /* classgtl_1_1_vec4-members.html */,
+				6A2DAE681D1C10C00003A481 /* classgtl_1_1_vec4.html */,
+				6A2DAE691D1C10C00003A481 /* classgtl_1_1_xf_box3-members.html */,
+				6A2DAE6A1D1C10C00003A481 /* classgtl_1_1_xf_box3.html */,
+				6A2DAE6B1D1C10C00003A481 /* classgtl_1_1_xf_box3.png */,
+				6A2DAE6C1D1C10C00003A481 /* complex_8hpp-source.html */,
+				6A2DAE6D1D1C10C00003A481 /* complex_8hpp.html */,
+				6A2DAE6E1D1C10C00003A481 /* dir_562e9cdbb79a04f05979e49e3df4343e.html */,
+				6A2DAE6F1D1C10C00003A481 /* dir_8ae3cd1b06edf79ecf218b6aae448d00.html */,
+				6A2DAE701D1C10C00003A481 /* dir_a0362990858c4ab15dab14bdb5d60c61.html */,
+				6A2DAE711D1C10C00003A481 /* dirs.html */,
+				6A2DAE721D1C10C00003A481 /* doxygen.css */,
+				6A2DAE731D1C10C00003A481 /* doxygen.png */,
+				6A2DAE741D1C10C00003A481 /* files.html */,
+				6A2DAE751D1C10C00003A481 /* ftv2blank.png */,
+				6A2DAE761D1C10C00003A481 /* ftv2doc.png */,
+				6A2DAE771D1C10C00003A481 /* ftv2folderclosed.png */,
+				6A2DAE781D1C10C00003A481 /* ftv2folderopen.png */,
+				6A2DAE791D1C10C00003A481 /* ftv2lastnode.png */,
+				6A2DAE7A1D1C10C00003A481 /* ftv2link.png */,
+				6A2DAE7B1D1C10C00003A481 /* ftv2mlastnode.png */,
+				6A2DAE7C1D1C10C00003A481 /* ftv2mnode.png */,
+				6A2DAE7D1D1C10C00003A481 /* ftv2node.png */,
+				6A2DAE7E1D1C10C00003A481 /* ftv2plastnode.png */,
+				6A2DAE7F1D1C10C00003A481 /* ftv2pnode.png */,
+				6A2DAE801D1C10C00003A481 /* ftv2vertline.png */,
+				6A2DAE811D1C10C00003A481 /* functions.html */,
+				6A2DAE821D1C10C00003A481 /* functions_0x63.html */,
+				6A2DAE831D1C10C00003A481 /* functions_0x64.html */,
+				6A2DAE841D1C10C00003A481 /* functions_0x65.html */,
+				6A2DAE851D1C10C00003A481 /* functions_0x67.html */,
+				6A2DAE861D1C10C00003A481 /* functions_0x69.html */,
+				6A2DAE871D1C10C00003A481 /* functions_0x6c.html */,
+				6A2DAE881D1C10C00003A481 /* functions_0x6d.html */,
+				6A2DAE891D1C10C00003A481 /* functions_0x6e.html */,
+				6A2DAE8A1D1C10C00003A481 /* functions_0x6f.html */,
+				6A2DAE8B1D1C10C00003A481 /* functions_0x70.html */,
+				6A2DAE8C1D1C10C00003A481 /* functions_0x71.html */,
+				6A2DAE8D1D1C10C00003A481 /* functions_0x72.html */,
+				6A2DAE8E1D1C10C00003A481 /* functions_0x73.html */,
+				6A2DAE8F1D1C10C00003A481 /* functions_0x74.html */,
+				6A2DAE901D1C10C00003A481 /* functions_0x76.html */,
+				6A2DAE911D1C10C00003A481 /* functions_0x77.html */,
+				6A2DAE921D1C10C00003A481 /* functions_0x78.html */,
+				6A2DAE931D1C10C00003A481 /* functions_0x79.html */,
+				6A2DAE941D1C10C00003A481 /* functions_0x7a.html */,
+				6A2DAE951D1C10C00003A481 /* functions_0x7e.html */,
+				6A2DAE961D1C10C00003A481 /* functions_func.html */,
+				6A2DAE971D1C10C00003A481 /* functions_func_0x63.html */,
+				6A2DAE981D1C10C00003A481 /* functions_func_0x64.html */,
+				6A2DAE991D1C10C00003A481 /* functions_func_0x65.html */,
+				6A2DAE9A1D1C10C00003A481 /* functions_func_0x67.html */,
+				6A2DAE9B1D1C10C00003A481 /* functions_func_0x69.html */,
+				6A2DAE9C1D1C10C00003A481 /* functions_func_0x6c.html */,
+				6A2DAE9D1D1C10C00003A481 /* functions_func_0x6d.html */,
+				6A2DAE9E1D1C10C00003A481 /* functions_func_0x6e.html */,
+				6A2DAE9F1D1C10C00003A481 /* functions_func_0x6f.html */,
+				6A2DAEA01D1C10C00003A481 /* functions_func_0x70.html */,
+				6A2DAEA11D1C10C00003A481 /* functions_func_0x71.html */,
+				6A2DAEA21D1C10C00003A481 /* functions_func_0x72.html */,
+				6A2DAEA31D1C10C00003A481 /* functions_func_0x73.html */,
+				6A2DAEA41D1C10C00003A481 /* functions_func_0x74.html */,
+				6A2DAEA51D1C10C00003A481 /* functions_func_0x76.html */,
+				6A2DAEA61D1C10C00003A481 /* functions_func_0x77.html */,
+				6A2DAEA71D1C10C00003A481 /* functions_func_0x78.html */,
+				6A2DAEA81D1C10C00003A481 /* functions_func_0x79.html */,
+				6A2DAEA91D1C10C00003A481 /* functions_func_0x7a.html */,
+				6A2DAEAA1D1C10C00003A481 /* functions_func_0x7e.html */,
+				6A2DAEAB1D1C10C00003A481 /* functions_rela.html */,
+				6A2DAEAC1D1C10C00003A481 /* globals.html */,
+				6A2DAEAD1D1C10C00003A481 /* globals_defs.html */,
+				6A2DAEAE1D1C10C00003A481 /* gtl_8hpp-source.html */,
+				6A2DAEAF1D1C10C00003A481 /* gtl_8hpp.html */,
+				6A2DAEB01D1C10C00003A481 /* hierarchy.html */,
+				6A2DAEB11D1C10C00003A481 /* index.html */,
+				6A2DAEB21D1C10C00003A481 /* logo.jpg */,
+				6A2DAEB31D1C10C00003A481 /* main.html */,
+				6A2DAEB41D1C10C00003A481 /* mainpage_8dox.html */,
+				6A2DAEB51D1C10C00003A481 /* matrix3_8hpp-source.html */,
+				6A2DAEB61D1C10C00003A481 /* matrix3_8hpp.html */,
+				6A2DAEB71D1C10C00003A481 /* matrix4_8hpp-source.html */,
+				6A2DAEB81D1C10C00003A481 /* matrix4_8hpp.html */,
+				6A2DAEB91D1C10C00003A481 /* namespacegeo.html */,
+				6A2DAEBA1D1C10C00003A481 /* namespacegtl.html */,
+				6A2DAEBB1D1C10C00003A481 /* namespacemembers.html */,
+				6A2DAEBC1D1C10C00003A481 /* namespacemembers_func.html */,
+				6A2DAEBD1D1C10C00003A481 /* namespacemembers_type.html */,
+				6A2DAEBE1D1C10C00003A481 /* namespaces.html */,
+				6A2DAEBF1D1C10C00003A481 /* plane_8hpp-source.html */,
+				6A2DAEC01D1C10C00003A481 /* plane_8hpp.html */,
+				6A2DAEC11D1C10C00003A481 /* quat_8hpp-source.html */,
+				6A2DAEC21D1C10C00003A481 /* quat_8hpp.html */,
+				6A2DAEC31D1C10C00003A481 /* ray_8hpp-source.html */,
+				6A2DAEC41D1C10C00003A481 /* ray_8hpp.html */,
+				6A2DAEC51D1C10C00003A481 /* sphere_8hpp-source.html */,
+				6A2DAEC61D1C10C00003A481 /* sphere_8hpp.html */,
+				6A2DAEC71D1C10C00003A481 /* tab_b.gif */,
+				6A2DAEC81D1C10C00003A481 /* tab_l.gif */,
+				6A2DAEC91D1C10C00003A481 /* tab_r.gif */,
+				6A2DAECA1D1C10C00003A481 /* tabs.css */,
+				6A2DAECB1D1C10C00003A481 /* tree.html */,
+				6A2DAECC1D1C10C00003A481 /* vec2_8hpp-source.html */,
+				6A2DAECD1D1C10C00003A481 /* vec2_8hpp.html */,
+				6A2DAECE1D1C10C00003A481 /* vec3_8hpp-source.html */,
+				6A2DAECF1D1C10C00003A481 /* vec3_8hpp.html */,
+				6A2DAED01D1C10C00003A481 /* vec4_8hpp-source.html */,
+				6A2DAED11D1C10C00003A481 /* vec4_8hpp.html */,
+				6A2DAED21D1C10C00003A481 /* xfbox3_8hpp-source.html */,
+				6A2DAED31D1C10C00003A481 /* xfbox3_8hpp.html */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		6A2DAED61D1C10C00003A481 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				6A2DAED71D1C10C00003A481 /* gtl */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		6A2DAED71D1C10C00003A481 /* gtl */ = {
+			isa = PBXGroup;
+			children = (
+				6A2DAED81D1C10C00003A481 /* box2.hpp */,
+				6A2DAED91D1C10C00003A481 /* box3.hpp */,
+				6A2DAEDA1D1C10C00003A481 /* circle.hpp */,
+				6A2DAEDB1D1C10C00003A481 /* complex.hpp */,
+				6A2DAEDC1D1C10C00003A481 /* gtl.hpp */,
+				6A2DAEDD1D1C10C00003A481 /* matrix3.hpp */,
+				6A2DAEDE1D1C10C00003A481 /* matrix4.hpp */,
+				6A2DAEDF1D1C10C00003A481 /* plane.hpp */,
+				6A2DAEE01D1C10C00003A481 /* quat.hpp */,
+				6A2DAEE11D1C10C00003A481 /* ray.hpp */,
+				6A2DAEE21D1C10C00003A481 /* sphere.hpp */,
+				6A2DAEE31D1C10C00003A481 /* vec2.hpp */,
+				6A2DAEE41D1C10C00003A481 /* vec3.hpp */,
+				6A2DAEE51D1C10C00003A481 /* vec4.hpp */,
+				6A2DAEE61D1C10C00003A481 /* xfbox3.hpp */,
+			);
+			path = gtl;
 			sourceTree = "<group>";
 		};
 		6A3B60E61C86D68A00FD7A31 /* xml */ = {
@@ -207,7 +721,7 @@
 		6ACB10AD1D13E73200F53C9E /* ConsoleTest */ = {
 			isa = PBXGroup;
 			children = (
-				6ACB10AE1D13E73200F53C9E /* main.cpp */,
+				6ACB10AE1D13E73200F53C9E /* memtest.cpp */,
 			);
 			path = ConsoleTest;
 			sourceTree = "<group>";
@@ -215,6 +729,8 @@
 		6AE07A301C0BE22600563A09 = {
 			isa = PBXGroup;
 			children = (
+				6A2A18111D3CDC9600A7DE13 /* Mem */,
+				6A2DAE071D1C10C00003A481 /* geometry */,
 				6A271ED61D0FFBA90016A118 /* loki.framework */,
 				6A01C7501CEC0F0000B0857E /* polygontri */,
 				6AE9A3E61CD9E5C200BE20C5 /* Polyline */,
@@ -241,6 +757,7 @@
 		6AE07A3B1C0BE22600563A09 /* XCodeCppTest */ = {
 			isa = PBXGroup;
 			children = (
+				6A2DAE051D1C0F620003A481 /* geometryTest.cpp */,
 				6ACB10A11D13CD3D00F53C9E /* octreeTest.cpp */,
 				6AF362AD1D0FFCA6002ECEBA /* lokiTest.cpp */,
 				6A01C7871CEC40AE00B0857E /* hashmapTest.cpp */,
@@ -347,7 +864,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ACB10AF1D13E73200F53C9E /* main.cpp in Sources */,
+				6ACB10AF1D13E73200F53C9E /* memtest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,14 +879,17 @@
 				6A3B60F31C86D68A00FD7A31 /* tinyxml.cpp in Sources */,
 				6A3B60F21C86D68A00FD7A31 /* tinystr.cpp in Sources */,
 				6A01C7881CEC40AE00B0857E /* hashmapTest.cpp in Sources */,
+				6A08B8551D3DC762008CE764 /* nedmalloc.c in Sources */,
 				6AE07A3D1C0BE22600563A09 /* jsonTest.cpp in Sources */,
 				6A721DC51CD9F4BE008F666C /* 2dPolylineTest.cpp in Sources */,
 				6A76AF9A1CCF00F70048AD43 /* test.cpp in Sources */,
 				6A01C7821CEC3E1E00B0857E /* gpc.c in Sources */,
 				6AE9A3E81CD9E5F200BE20C5 /* polyline.cpp in Sources */,
+				6A2A18141D3CDCC800A7DE13 /* dlmamlloc.h in Sources */,
 				6AF362AE1D0FFCA6002ECEBA /* lokiTest.cpp in Sources */,
 				6A3B60F51C86D68A00FD7A31 /* tinyxmlparser.cpp in Sources */,
 				6A89E2BC1C7BFA1A006CE56A /* gpcTest.cpp in Sources */,
+				6A2DAE061D1C0F620003A481 /* geometryTest.cpp in Sources */,
 				6A733A911CC0993400B55C5D /* utf8-unicode.cpp in Sources */,
 				6ACB10A21D13CD3D00F53C9E /* octreeTest.cpp in Sources */,
 				6A70228D1CACF83700817D59 /* templateTest.cpp in Sources */,
@@ -389,15 +909,14 @@
 		6ACB10B11D13E73200F53C9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/mem",
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					./rapidjson,
 					./triangle,
+					./mem,
 					./polygontri,
 					"$(MYPATH)/include",
 				);
@@ -409,11 +928,14 @@
 		6ACB10B21D13E73200F53C9E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/mem",
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					./rapidjson,
 					./triangle,
+					./mem,
 					./polygontri,
 					"$(MYPATH)/include",
 				);
@@ -525,6 +1047,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/rdpidjson",
+					"$(SRCROOT)/geometry/include",
 				);
 				LIBRARY_SEARCH_PATHS = /Users/TLG/Documents/GitHub/XCodeCppTest/loki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -542,6 +1065,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/rdpidjson",
+					"$(SRCROOT)/geometry/include",
 				);
 				LIBRARY_SEARCH_PATHS = /Users/TLG/Documents/GitHub/XCodeCppTest/loki;
 				PRODUCT_NAME = "$(TARGET_NAME)";

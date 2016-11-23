@@ -15,8 +15,15 @@
 		6A01C7821CEC3E1E00B0857E /* gpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C7801CEC3E1E00B0857E /* gpc.c */; };
 		6A01C7851CEC401A00B0857E /* triangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C7831CEC401A00B0857E /* triangle.c */; };
 		6A01C7881CEC40AE00B0857E /* hashmapTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A01C7871CEC40AE00B0857E /* hashmapTest.cpp */; };
-		6A08B8551D3DC762008CE764 /* nedmalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A08B8531D3DC762008CE764 /* nedmalloc.c */; };
-		6A2A18141D3CDCC800A7DE13 /* dlmamlloc.h in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A18121D3CDCC800A7DE13 /* dlmamlloc.h */; };
+		6A07178B1D531F5D00A568FB /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A0717891D531F5D00A568FB /* test.cpp */; };
+		6A08B85A1D3DFE1B008CE764 /* nedmalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A08B8581D3DFE1B008CE764 /* nedmalloc.c */; };
+		6A08B85D1D3DFE29008CE764 /* dlmamlloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A08B85B1D3DFE29008CE764 /* dlmamlloc.cpp */; };
+		6A08B8601D3DFF51008CE764 /* MemoryPool.tcc in Sources */ = {isa = PBXBuildFile; fileRef = 6A08B85F1D3DFF51008CE764 /* MemoryPool.tcc */; };
+		6A08B8791D3E186F008CE764 /* AllocatedObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A08B8781D3E186F008CE764 /* AllocatedObject.cpp */; };
+		6A08B87C1D3E1F21008CE764 /* NedPoolingPolicy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A08B87B1D3E1F21008CE764 /* NedPoolingPolicy.cpp */; };
+		6A08B87D1D3E201A008CE764 /* NedPoolingPolicy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A08B87B1D3E1F21008CE764 /* NedPoolingPolicy.cpp */; };
+		6A08B87E1D3E201A008CE764 /* AllocatedObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A08B8781D3E186F008CE764 /* AllocatedObject.cpp */; };
+		6A253AD81D6C2F7F005B21A5 /* Template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A253AD61D6C2F7F005B21A5 /* Template.cpp */; };
 		6A2DAE061D1C0F620003A481 /* geometryTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A2DAE051D1C0F620003A481 /* geometryTest.cpp */; };
 		6A3B60F21C86D68A00FD7A31 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3B60EE1C86D68A00FD7A31 /* tinystr.cpp */; };
 		6A3B60F31C86D68A00FD7A31 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3B60EF1C86D68A00FD7A31 /* tinyxml.cpp */; };
@@ -75,12 +82,23 @@
 		6A01C7831CEC401A00B0857E /* triangle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = triangle.c; path = triangle/triangle.c; sourceTree = "<group>"; };
 		6A01C7841CEC401A00B0857E /* triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = triangle.h; path = triangle/triangle.h; sourceTree = "<group>"; };
 		6A01C7871CEC40AE00B0857E /* hashmapTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hashmapTest.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
-		6A08B8521D3DC762008CE764 /* malloc.c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = malloc.c.h; path = mem/malloc.c.h; sourceTree = "<group>"; };
-		6A08B8531D3DC762008CE764 /* nedmalloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nedmalloc.c; path = mem/nedmalloc.c; sourceTree = "<group>"; };
-		6A08B8541D3DC762008CE764 /* nedmalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nedmalloc.h; path = mem/nedmalloc.h; sourceTree = "<group>"; };
+		6A0717891D531F5D00A568FB /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		6A08B8571D3DFE1B008CE764 /* malloc.c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = malloc.c.h; path = mem/nedmalloc/malloc.c.h; sourceTree = "<group>"; };
+		6A08B8581D3DFE1B008CE764 /* nedmalloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nedmalloc.c; path = mem/nedmalloc/nedmalloc.c; sourceTree = "<group>"; };
+		6A08B8591D3DFE1B008CE764 /* nedmalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nedmalloc.h; path = mem/nedmalloc/nedmalloc.h; sourceTree = "<group>"; };
+		6A08B85B1D3DFE29008CE764 /* dlmamlloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dlmamlloc.cpp; path = mem/dlmalloc/dlmamlloc.cpp; sourceTree = "<group>"; };
+		6A08B85C1D3DFE29008CE764 /* dlmamlloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dlmamlloc.h; path = mem/dlmalloc/dlmamlloc.h; sourceTree = "<group>"; };
+		6A08B85E1D3DFF51008CE764 /* MemoryPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MemoryPool.h; path = mem/mempool/MemoryPool.h; sourceTree = "<group>"; };
+		6A08B85F1D3DFF51008CE764 /* MemoryPool.tcc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MemoryPool.tcc; path = mem/mempool/MemoryPool.tcc; sourceTree = "<group>"; };
+		6A08B86C1D3E1616008CE764 /* Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Interface.h; path = MyClassDef/Include/Interface.h; sourceTree = SOURCE_ROOT; };
+		6A08B86D1D3E1616008CE764 /* NedPoolingPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NedPoolingPolicy.h; path = MyClassDef/Include/NedPoolingPolicy.h; sourceTree = SOURCE_ROOT; };
+		6A08B8741D3E1751008CE764 /* MemAllocConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MemAllocConfig.h; path = MyClassDef/Include/MemAllocConfig.h; sourceTree = "<group>"; };
+		6A08B8781D3E186F008CE764 /* AllocatedObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AllocatedObject.cpp; path = MyClassDef/Src/AllocatedObject.cpp; sourceTree = SOURCE_ROOT; };
+		6A08B87A1D3E1B26008CE764 /* AllocatedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllocatedObject.h; path = MyClassDef/Include/AllocatedObject.h; sourceTree = "<group>"; };
+		6A08B87B1D3E1F21008CE764 /* NedPoolingPolicy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NedPoolingPolicy.cpp; path = MyClassDef/Src/NedPoolingPolicy.cpp; sourceTree = SOURCE_ROOT; };
+		6A253AD61D6C2F7F005B21A5 /* Template.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Template.cpp; path = Template/Template.cpp; sourceTree = "<group>"; };
+		6A253AD71D6C2F7F005B21A5 /* Template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Template.h; path = Template/Template.h; sourceTree = "<group>"; };
 		6A271ED61D0FFBA90016A118 /* loki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = loki.framework; path = loki/lib/loki.framework; sourceTree = "<group>"; };
-		6A2A18121D3CDCC800A7DE13 /* dlmamlloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dlmamlloc.h; path = mem/dlmamlloc.h; sourceTree = "<group>"; };
-		6A2A18131D3CDCC800A7DE13 /* dlmamlloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dlmamlloc.cpp; path = mem/dlmamlloc.cpp; sourceTree = "<group>"; };
 		6A2DAE051D1C0F620003A481 /* geometryTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = geometryTest.cpp; path = XCodeCppTest.xcodeproj/../geometryTest.cpp; sourceTree = SOURCE_ROOT; };
 		6A2DAE0A1D1C10C00003A481 /* _box2_8hpp-source.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "_box2_8hpp-source.html"; sourceTree = "<group>"; };
 		6A2DAE0B1D1C10C00003A481 /* _box2_8hpp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = _box2_8hpp.html; sourceTree = "<group>"; };
@@ -370,8 +388,8 @@
 		6A08B8501D3DC44C008CE764 /* dlmalloc */ = {
 			isa = PBXGroup;
 			children = (
-				6A2A18121D3CDCC800A7DE13 /* dlmamlloc.h */,
-				6A2A18131D3CDCC800A7DE13 /* dlmamlloc.cpp */,
+				6A08B85B1D3DFE29008CE764 /* dlmamlloc.cpp */,
+				6A08B85C1D3DFE29008CE764 /* dlmamlloc.h */,
 			);
 			name = dlmalloc;
 			sourceTree = "<group>";
@@ -379,16 +397,73 @@
 		6A08B8511D3DC45E008CE764 /* nedmalloc */ = {
 			isa = PBXGroup;
 			children = (
-				6A08B8521D3DC762008CE764 /* malloc.c.h */,
-				6A08B8531D3DC762008CE764 /* nedmalloc.c */,
-				6A08B8541D3DC762008CE764 /* nedmalloc.h */,
+				6A08B8571D3DFE1B008CE764 /* malloc.c.h */,
+				6A08B8581D3DFE1B008CE764 /* nedmalloc.c */,
+				6A08B8591D3DFE1B008CE764 /* nedmalloc.h */,
 			);
 			name = nedmalloc;
+			sourceTree = "<group>";
+		};
+		6A08B8561D3DFDBE008CE764 /* mempool */ = {
+			isa = PBXGroup;
+			children = (
+				6A08B85E1D3DFF51008CE764 /* MemoryPool.h */,
+				6A08B85F1D3DFF51008CE764 /* MemoryPool.tcc */,
+			);
+			name = mempool;
+			sourceTree = "<group>";
+		};
+		6A08B8611D3E1101008CE764 /* MyClassDef */ = {
+			isa = PBXGroup;
+			children = (
+				6A08B8701D3E1625008CE764 /* Include */,
+				6A08B8681D3E1223008CE764 /* Src */,
+			);
+			name = MyClassDef;
+			sourceTree = "<group>";
+		};
+		6A08B8681D3E1223008CE764 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				6A08B8711D3E1639008CE764 /* Mem */,
+			);
+			name = Src;
+			path = MyClassDef/Memory;
+			sourceTree = "<group>";
+		};
+		6A08B8701D3E1625008CE764 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				6A08B86C1D3E1616008CE764 /* Interface.h */,
+				6A08B8741D3E1751008CE764 /* MemAllocConfig.h */,
+				6A08B87A1D3E1B26008CE764 /* AllocatedObject.h */,
+				6A08B86D1D3E1616008CE764 /* NedPoolingPolicy.h */,
+			);
+			name = Include;
+			sourceTree = "<group>";
+		};
+		6A08B8711D3E1639008CE764 /* Mem */ = {
+			isa = PBXGroup;
+			children = (
+				6A08B87B1D3E1F21008CE764 /* NedPoolingPolicy.cpp */,
+				6A08B8781D3E186F008CE764 /* AllocatedObject.cpp */,
+			);
+			name = Mem;
+			sourceTree = "<group>";
+		};
+		6A253AD51D6C2F4D005B21A5 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				6A253AD61D6C2F7F005B21A5 /* Template.cpp */,
+				6A253AD71D6C2F7F005B21A5 /* Template.h */,
+			);
+			name = Template;
 			sourceTree = "<group>";
 		};
 		6A2A18111D3CDC9600A7DE13 /* Mem */ = {
 			isa = PBXGroup;
 			children = (
+				6A08B8561D3DFDBE008CE764 /* mempool */,
 				6A08B8511D3DC45E008CE764 /* nedmalloc */,
 				6A08B8501D3DC44C008CE764 /* dlmalloc */,
 			);
@@ -722,6 +797,7 @@
 			isa = PBXGroup;
 			children = (
 				6ACB10AE1D13E73200F53C9E /* memtest.cpp */,
+				6A0717891D531F5D00A568FB /* test.cpp */,
 			);
 			path = ConsoleTest;
 			sourceTree = "<group>";
@@ -729,6 +805,8 @@
 		6AE07A301C0BE22600563A09 = {
 			isa = PBXGroup;
 			children = (
+				6A253AD51D6C2F4D005B21A5 /* Template */,
+				6A08B8611D3E1101008CE764 /* MyClassDef */,
 				6A2A18111D3CDC9600A7DE13 /* Mem */,
 				6A2DAE071D1C10C00003A481 /* geometry */,
 				6A271ED61D0FFBA90016A118 /* loki.framework */,
@@ -864,6 +942,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A08B87D1D3E201A008CE764 /* NedPoolingPolicy.cpp in Sources */,
+				6A07178B1D531F5D00A568FB /* test.cpp in Sources */,
+				6A08B87E1D3E201A008CE764 /* AllocatedObject.cpp in Sources */,
 				6ACB10AF1D13E73200F53C9E /* memtest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -875,30 +956,34 @@
 				6A01C7611CEC0F0000B0857E /* Makefile in Sources */,
 				6A01C75F1CEC0F0000B0857E /* construct.c in Sources */,
 				6A01C7641CEC0F0000B0857E /* monotone.c in Sources */,
+				6A08B85D1D3DFE29008CE764 /* dlmamlloc.cpp in Sources */,
 				6A91D7A21C992A0800AFDEF7 /* singleton.cpp in Sources */,
 				6A3B60F31C86D68A00FD7A31 /* tinyxml.cpp in Sources */,
 				6A3B60F21C86D68A00FD7A31 /* tinystr.cpp in Sources */,
 				6A01C7881CEC40AE00B0857E /* hashmapTest.cpp in Sources */,
-				6A08B8551D3DC762008CE764 /* nedmalloc.c in Sources */,
+				6A08B85A1D3DFE1B008CE764 /* nedmalloc.c in Sources */,
 				6AE07A3D1C0BE22600563A09 /* jsonTest.cpp in Sources */,
+				6A08B87C1D3E1F21008CE764 /* NedPoolingPolicy.cpp in Sources */,
 				6A721DC51CD9F4BE008F666C /* 2dPolylineTest.cpp in Sources */,
 				6A76AF9A1CCF00F70048AD43 /* test.cpp in Sources */,
 				6A01C7821CEC3E1E00B0857E /* gpc.c in Sources */,
 				6AE9A3E81CD9E5F200BE20C5 /* polyline.cpp in Sources */,
-				6A2A18141D3CDCC800A7DE13 /* dlmamlloc.h in Sources */,
 				6AF362AE1D0FFCA6002ECEBA /* lokiTest.cpp in Sources */,
 				6A3B60F51C86D68A00FD7A31 /* tinyxmlparser.cpp in Sources */,
 				6A89E2BC1C7BFA1A006CE56A /* gpcTest.cpp in Sources */,
 				6A2DAE061D1C0F620003A481 /* geometryTest.cpp in Sources */,
+				6A08B8791D3E186F008CE764 /* AllocatedObject.cpp in Sources */,
 				6A733A911CC0993400B55C5D /* utf8-unicode.cpp in Sources */,
 				6ACB10A21D13CD3D00F53C9E /* octreeTest.cpp in Sources */,
 				6A70228D1CACF83700817D59 /* templateTest.cpp in Sources */,
 				6ACC45DC1C86D6FF00348904 /* xmlTest.cpp in Sources */,
 				6A01C7621CEC0F0000B0857E /* misc.c in Sources */,
+				6A253AD81D6C2F7F005B21A5 /* Template.cpp in Sources */,
 				6A76AF981CCEFF7A0048AD43 /* memfuncpointer.cpp in Sources */,
 				6A01C7661CEC0F0000B0857E /* tri.c in Sources */,
 				6A01C7851CEC401A00B0857E /* triangle.c in Sources */,
 				6A3B60F41C86D68A00FD7A31 /* tinyxmlerror.cpp in Sources */,
+				6A08B8601D3DFF51008CE764 /* MemoryPool.tcc in Sources */,
 				6A89E2BA1C7BF9B6006CE56A /* triangleTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -916,7 +1001,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					./rapidjson,
 					./triangle,
-					./mem,
+					./mem/nedmalloc,
 					./polygontri,
 					"$(MYPATH)/include",
 				);
@@ -935,7 +1020,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					./rapidjson,
 					./triangle,
-					./mem,
+					./mem/nedmalloc,
 					./polygontri,
 					"$(MYPATH)/include",
 				);
@@ -986,6 +1071,7 @@
 					./rapidjson,
 					./triangle,
 					./polygontri,
+					./MyClassDef/include,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1029,6 +1115,7 @@
 					./rapidjson,
 					./triangle,
 					./polygontri,
+					./MyClassDef/include,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;

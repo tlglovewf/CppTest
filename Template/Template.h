@@ -9,6 +9,22 @@
 #ifndef Template_hpp
 #define Template_hpp
 
-#include <stdio.h>
+
+class Node
+{
+public:
+    virtual void show(void)const = 0;
+};
+
+
+template <typename T>
+class BaseNode : public Node
+{
+protected:
+    void display(void)const;
+public:
+    virtual void show(void)const = 0;
+};
+
 
 #endif /* Template_hpp */

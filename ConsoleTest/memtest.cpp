@@ -14,13 +14,14 @@
 #include <sys/stat.h>
 #include <dirent.h>
 #include <unistd.h>
+#include "mempool/MemoryPool.h"
 #include "dlmamlloc.h"
-#define ABORT_ON_ASSERT_FAILURE 0
-#include "nedmalloc.c"
+//#define ABORT_ON_ASSERT_FAILURE 0
+//#include "nedmalloc.c"
 
 #include <time.h>
+#include "MemAllocConfig.h"
 using namespace std;
-
 enum eStats
 {
     eSuccessful,
@@ -62,8 +63,10 @@ int getFileName(const char *path)
     return eSuccessful;
 }
 
-int main(int argc, const char * argv[]) {
 
+
+void  testMalloc(void)
+{
     time_t t1 = clock();
     const long exp = 1e8;
     /**
@@ -91,10 +94,90 @@ int main(int argc, const char * argv[]) {
      */
     for(int i = 0; i < exp;++i)
     {
-        int *x = (int*)nedalloc::nedmalloc(sizeof(int));
-        nedalloc::nedfree(x);
+//        int *x = (int*)nedalloc::nedmalloc(sizeof(int));
+//        nedalloc::nedfree(x);
     }
     time_t t4 = clock();
     cout << "nedmalloc: " << (t4 - t3) / CLOCKS_PER_SEC << endl;
-    return 0;
 }
+
+class TestOne
+{
+public:
+    TestOne(int _x):x(_x){}
+    
+    void display(void)const
+    {
+        cout << "print value : " << x << endl;
+    }
+private:
+    int x;
+};
+
+typedef MemoryPool<TestOne> TestOneAlloc;
+
+
+static TestOneAlloc testa;
+void testMemPool(void)
+{
+    time_t t1 = clock();
+    const int len  = 1e8;
+    for(int i = 0; i < len ; ++i)
+    {
+        TestOne *x = new TestOne(5);
+        delete x;
+    }
+    time_t t2 = clock();
+    cout << "alloc time : " << (t2 - t1) / CLOCKS_PER_SEC << endl;
+    for(int i = 0; i < len; ++i)
+    {
+        TestOne *x = testa.newElement(5);
+        testa.deleteElement(x);
+    }
+    time_t t3 = clock();
+    cout << "alloc time : " << (t3 - t2) / CLOCKS_PER_SEC << endl;
+}
+
+//.........test ned pool
+
+
+class TestPool : public TLG::BaseAllocatedObject
+{
+public:
+    TestPool(int _x):x(_x){}
+private:
+    int x;
+};
+
+
+void testNedPool()
+{
+    time_t t1 = clock();
+    const int len  = 1e8;
+    for(int i = 0; i < len ; ++i)
+    {
+        TestOne *x = new TestOne(5);
+        delete x;
+    }
+    time_t t2 = clock();
+    cout << "alloc time : " << (float)(t2 - t1) / CLOCKS_PER_SEC << endl;
+    for(int i = 0; i < len; ++i)
+    {
+//        TestPool *x = new TestPool(5);
+//        delete x;
+        TestOne *x = (TestOne*)dlmalloc(sizeof(TestOne));
+        dlfree(x);
+    }
+    time_t t3 = clock();
+    cout << "alloc time : " << (float)(t3 - t2) / CLOCKS_PER_SEC << endl;
+}
+
+//int main(int argc, const char * argv[])
+//{
+//    
+////    testNedPool();
+//
+//    unsigned long  x = 1e32;
+//    printf("%lu\n",x);
+//    return 0;
+//}

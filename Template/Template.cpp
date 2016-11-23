@@ -6,4 +6,9 @@
 //  Copyright © 2016年 TuLigen. All rights reserved.
 //
 
-#include "Template.hpp"
+#include "Template.h"
+template<typename T>
+void BaseNode<T>::display()const
+{
+    
+}

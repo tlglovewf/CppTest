@@ -1,22 +1,10 @@
 language: c
-compiler:
--clang
--gcc
-os:
--osx
-
-install:
--cd ConsoleTest
--gcc test.cpp -o exe
-
-before_depoly:
--export RELEASE_EXE=/output/test.exe
--echo "deploying output"
-
+script:
+- cd ConsoleTest
+- gcc test.cpp -o exe
+before_deploy:
+- export RELEASE_EXE=/output/test.exe
+- echo "deploying output"
 deploy:
-  provider:releases
- file:"${RELEASE_EXE}"
- file_glob:true
- file_cleanup:true
-on:
- branch:master
+  provider: releases
+  file: "${RELEASE_PKG_FILE}" 

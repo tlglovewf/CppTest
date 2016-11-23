@@ -6,12 +6,12 @@ os:
 -osx
 
 install:
-cd ConsoleTest
-gcc test.cpp -o exe
+-cd ConsoleTest
+-gcc test.cpp -o exe
 
 before_depoly:
-export RELEASE_EXE=/output/test.exe
-echo "deploying output"
+-export RELEASE_EXE=/output/test.exe
+-echo "deploying output"
 
 deploy:
   provider:releases

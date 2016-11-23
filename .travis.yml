@@ -1,9 +1,11 @@
 nguage: c
 script:
+- pwd
+- ls
 - cd ConsoleTest
-- gcc test.cpp -o exe
+- g++ test.cpp -o exe
 before_deploy:
-- export RELEASE_EXE=$(ls /output/test.exe)
+- export RELEASE_EXE=$(ls test.exe)
 - echo "deploying output"
 deploy:
   provider: releases

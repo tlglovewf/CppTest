@@ -10,8 +10,8 @@ script:
 - ./exe
 deploy:
   provider: releases
-  user: "tlglovewf"
-  password: "tlglove326"
+  api_key:
+      secure: c2f819760f189e030ff6b2dc62644248dddc6984
   file: "test.exe" 
   file_glob: true
   skip_cleanup: true 

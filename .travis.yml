@@ -10,7 +10,7 @@ script:
 deploy:
   provider: releases
   api_key:
-    secure:  8b46307dd5ffba08b9bd0e31f70b5376584cfb51
+    secure: 9b813ef5b7912685a1e0bada71500781009c4679  
   file: "test.exe" 
   file_glob: true
   skip_cleanup: true

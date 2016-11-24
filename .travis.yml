@@ -7,6 +7,7 @@ script:
 - g++ -v
 - echo "start build program"
 - g++ test.cpp -o exe
+- ./exe
 deploy:
   provider: releases
   api_key:

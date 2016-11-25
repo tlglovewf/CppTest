@@ -5,14 +5,14 @@
 //  Created by TuLigen on 16/8/4.
 //  Copyright © 2016年 TuLigen. All rights reserved.
 //
-//#include <iostream>
+#include <iostream>
 //#include <experimental/optional>
 //#include "Template.h"
-//#include <algorithm>
-//#include <sstream>
+#include <algorithm>
+#include <sstream>
 //#include <list>
 #include "stdio.h"
-//using namespace std;
+using namespace std;
 //class Test
 //{
 //public:
@@ -70,7 +70,7 @@
 int main(void)
 {
 //    char *cstr = "55,33";
-//    char *pos = strchr(cstr, ',');
+//    char *pos = strchr(cstr, '-');
 //    std::string  cc(cstr, pos - cstr);
 //    std::stringstream ss(cstr);
 //    int x;
@@ -78,6 +78,20 @@ int main(void)
 //    int y;
 //    cout << x << " " << y <<  endl;
 //    cout << ++pos << " " << cc.c_str() << endl;
-    printf("hello world.\n");
+//    
+//    const char *test = "ff0000";
+//    int x = 0;
+//    sscanf(test,"%x",&x);
+//    x =  x | 0xff000000;
+//    printf("hello world %x.\n",x);
+    const char *test = "502ff0000abcaff";
+    int index,width,forecolor,backcolor;
+//    sscanf(test, "%d%2d%x%x",&index,&width,&forecolor,&backcolor);
+//    cout<< index << width << forecolor << backcolor << endl;
+    string str(test);
+    cout << atoi(str.substr(0,1).c_str()) << endl;
+    cout << atoi(str.substr(1,2).c_str()) << endl;
+    cout << str.substr(3,6).c_str() << endl;
+    cout << str.substr(9,14).c_str()<<endl;
     return 0;
 }

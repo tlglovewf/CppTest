@@ -15,5 +15,3 @@ deploy:
   password: "tlglove326"
   file: ConsoleTest/exe
   skip_cleanup: true
-  on:
-    repo: tlglovewf/CppTest

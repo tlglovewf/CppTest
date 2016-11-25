@@ -1,4 +1,4 @@
-nguage: c
+language: c
 script:
 - pwd
 - ls

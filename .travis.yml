@@ -11,7 +11,16 @@ script:
 deploy:
   provider: releases
   api_key:
+<<<<<<< HEAD
     secure: jMdJdd32/iQqzPHcIbeK3dWMXMlIEKIyhBtkLpufwysuTlJ76xD5Ls6MdfNWGi7Oll7fC33WLitcH7/sgcnw7gvoPFb/CA6NBJupXdkxYsBZGnnjvNXH+gZiGQOivUjmOmLB3zfJDhXPbdy/TukMjgWt4ozR0btuarM7W2Fh2moOevZCnmC7azLX6zpmPrigRHZ9GaU2YzpEogqBS5D9NJrA80iFLj+cd3RhLM9TMVUhU7ggHqjkGYvmyZ0MmlzcjJ1nvEJJTeD4TtmsqEczw1lYjlMWbcAU+vEfKiLLv5RGsYzMOM3hsQJ6gT/CQ+ju+kgkip9LV3tSBE323uMpJ8+9Thz9HTJBQE0tMktKcCpDFihcaQi/DCzcPzrBKrseB8PJw6OfrhMn/U2HEkxL9I6lViHIk7RSZgX4eZ/wEDgBeXOxZzb4YbKT4Cjn/BVtZXMnIYLCDKUro+TfkcCoBuLY6fdymk5MUxLRvm1dM67l7mcrPuNSUslbDXzz8qeEWOfCkXztRey4QyuHhsSCs8CNqLDnADgbgl1RoktZyntyHdqIrQiWt8jhj2m+1iOgorMk7RAlytS09EyhxTWiF3Tp5nFquNM/lhxwXw8tkL3a16JzbtEQh/HjZbKgWmMXQYSGZ4Ckxysw63XryqTSqoQvLXfBCq80bQtPaR9Cwkc=
   file: ConsoleTest/exe
   on:
     repo: tlglovewf/CppTest
+=======
+      secure: c2f819760f189e030ff6b2dc62644248dddc6984
+  file: "ConsoleTest/exe" 
+  file_glob: true
+  skip_cleanup: true 
+  on: 
+     branch: master
+>>>>>>> origin/master

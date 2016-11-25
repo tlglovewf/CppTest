@@ -8,10 +8,12 @@ script:
 - echo "start build program"
 - g++ test.cpp -o exe
 - ./exe
+- pwd
 deploy:
   provider: releases
-  api_key:
-    secure: lhxezWnw7OenWDQv7Ngm7g67ramG6nJ+rm9iHNHGvk6SY3fkj9Ti2UcNchNEX1dY4rw/GcMWfO6c+63m7V53v8pjgMbquOlFc3bQEQ22v+X0ezk3DxgYl5dGGSXJlgRR6TbGIqCVqZ2fouBomBcxNWtUUevJxkvo+xqterxQzI8WrSdDSloye2vaRCwTdOhWGgLjP5aBGgB5z5Kb4grjdCaxXhm2nYX4OiUPzu6DOiM6JaIpH7A62DP7vrifZv2Zmc2xWp1QmKMkk4WTPp5Up4n3GkMIcD3tZu5OLBdLehbeQ1RVaj49v0jYKztCbTU0Gwy8/vSWbODVo0eOoEpgmdNuXslFrdeNpeEVyWE9Il8sXRi5NDtpFrrLwgYOOUS3V4IjZXrls5AvJapehCHJ801vSRhqg+GJ8VS+vXBDEJMVNnQHp6fNrwczjiNSlIINsdR1tPR6kry4SMWWuHwevz9tw1k3h7Pu0vD1Sp0iqf0Rsf7Vme6ihP2U+ZKS45fz8pKneAw01qQU1a1OJhLtWr5MMrrBWsYnq18CR31GJDjl+AkJNgewZusFLI+pg0X75rO0wIUG/CuRNDQycuFqfmuHJOG3V15BmYouoxAnjfAjvNiw3Nb7dhCTkRO8x3QiHOOrI7idH67I5Y5e1jFvrEEaV+Z6I4y+dDst6hoHmzI=
+  user: "tlglovewf"
+  password: "tlglove326"
   file: ConsoleTest/exe
+  skip_cleanup: true
   on:
     repo: tlglovewf/CppTest

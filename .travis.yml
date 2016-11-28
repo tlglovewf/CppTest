@@ -20,6 +20,7 @@ deploy:
     - "${TRAVIS_BUILD_DIR}/ConsoleTest/cc.exe"
     - "${TRAVIS_BUILD_DIR}/ConsoleTest/oo.exe"
   file_glob: true
+  skip_cleanup: true
   on:
     repo: tlglovewf/CppTest
     branch: master

@@ -10,8 +10,8 @@ script:
 - ./exe
 - ls 
 - git --version
-- git add exe
-- git commit -m "ad" exe
+#- git add exe
+#- git commit -m "ad" exe
 deploy:
   provider: releases
   api_key:

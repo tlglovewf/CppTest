@@ -13,6 +13,7 @@ script:
 - ./oo.exe
 - ls 
 - tar --version
+- tar -cvf output.tar oo.exe cc.exe 
 - ls
 deploy:
   provider: releases

@@ -12,10 +12,6 @@ script:
 - g++ test.cpp -o oo.exe
 - ./oo.exe
 - ls 
-- git add cc.exe oo.exe
-- git config --global user.email "tuligen@navinfo.com"
-- git config --global user.name "tlglovewf"
-- git commit -m "ad" 
 deploy:
   provider: releases
   api_key:

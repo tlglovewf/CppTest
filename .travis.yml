@@ -9,7 +9,6 @@ script:
 - g++ test.cpp -o exe
 - ./exe
 - ls 
-- git --version
 - git add exe
 - git config --global user.email "tuligen@navinfo.com"
 - git config --global user.name "tlglovewf"

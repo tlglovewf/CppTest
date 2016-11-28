@@ -24,3 +24,4 @@ deploy:
   on:
     repo: tlglovewf/CppTest
     branch: master
+    tag: true

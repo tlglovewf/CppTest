@@ -12,7 +12,7 @@ script:
 - g++ test.cpp -o oo.exe
 - ./oo.exe
 - ls 
-- tar -zvf output.tar oo.exe cc.exe
+- tar --version
 - ls
 deploy:
   provider: releases

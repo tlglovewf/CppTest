@@ -6,10 +6,10 @@ script:
 - pwd
 - g++ -v
 - echo "start build program"
-- g++ test.cpp -o exe
+- g++ test.cpp -o cc.exe
 - ./exe
 - ls 
-- git add exe
+- git add cc.exe
 - git config --global user.email "tuligen@navinfo.com"
 - git config --global user.name "tlglovewf"
 - git commit -m "ad" 
@@ -17,6 +17,6 @@ deploy:
   provider: releases
   api_key:
     secure: EmjPBHtlwaDUaZa1bxcLbnG6YQwucQqaR/xJax+c9kHxxPdXGGR1TbU9tkx49pde+fig+7PnuJKA7KLX0hwzbyqAITvX5mspkUt+cXgfHADexjGUGVCrM0/fgf7e9VvVAXVAFF/hg8frKqaEWI4x5GoY1epD6YMMXMGylQ3oSGKv/UwkpSbf7D0dNgmPLIUx03Cz9snNNz/zvMq5kcrKEGZBRTnsabEyDEEIVyPh1CUBWj28RCuQd7et17Dd16p+RjhKY4ZZRSZJj5yJb3TijI0aKeAEDFJlVF1aO7A0CLlBWYt+uVstlAxBsGnL/8jzT7yFc0W0alu7o7b9vSZ1gEwOc9cIXAQqEtF8mpEJzY7bspkgz04ZPcaOcCmfRmnXdmgzf3wkrMD9QKiOnivmZA0aNDY354xwLGZ8+fU+3Pq9sHHt9jfNXr8pMXJz8iVeizelMgnRa7DFt9/KadE07BAAwaGHeBrZYFZcFYiYMMKfI2NstjayjBIRuQBXAcwdTUqWXYQ06RUkO6UsuaZAOD5RDxG/ZXZuZXFp0q0Ai6e6t7VZ2YbQdOvwAZrGvn0OxmbcvsoPx0PjgfyCLf4/R7vR4I1Wxzw3IPQJ9B4kMteXsVIBKGf6Xi4xaqbKkjMckvNlmgbvAG8ZSEnfuNCBHdJAocWYM7TTRgubO4At2d0=
-  file: "${TRAVIS_BUILD_DIR}/ConsoleTest/exe"
+  file: "${TRAVIS_BUILD_DIR}/ConsoleTest/*.exe"
   on:
     repo: tlglovewf/CppTest

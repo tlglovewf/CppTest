@@ -20,4 +20,4 @@ deploy:
   file: "${TRAVIS_BUILD_DIR}/ConsoleTest/cc.exe"
   on:
     repo: tlglovewf/CppTest
-    branch:master
+    branch: master

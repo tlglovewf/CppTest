@@ -31,6 +31,7 @@
 		6A3B60F51C86D68A00FD7A31 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3B60F11C86D68A00FD7A31 /* tinyxmlparser.cpp */; };
 		6A70228D1CACF83700817D59 /* templateTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A70228C1CACF83700817D59 /* templateTest.cpp */; };
 		6A721DC51CD9F4BE008F666C /* 2dPolylineTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A721DC41CD9F4BE008F666C /* 2dPolylineTest.cpp */; };
+		6A73048D1F47053F003A86E6 /* test0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A73048C1F47053F003A86E6 /* test0.cpp */; };
 		6A733A911CC0993400B55C5D /* utf8-unicode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A733A901CC0993400B55C5D /* utf8-unicode.cpp */; };
 		6A76AF981CCEFF7A0048AD43 /* memfuncpointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A76AF971CCEFF7A0048AD43 /* memfuncpointer.cpp */; };
 		6A76AF9A1CCF00F70048AD43 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A76AF991CCF00F70048AD43 /* test.cpp */; };
@@ -330,6 +331,7 @@
 		6A3B60F11C86D68A00FD7A31 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
 		6A70228C1CACF83700817D59 /* templateTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = templateTest.cpp; sourceTree = SOURCE_ROOT; };
 		6A721DC41CD9F4BE008F666C /* 2dPolylineTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = 2dPolylineTest.cpp; path = XCodeCppTest.xcodeproj/../2dPolylineTest.cpp; sourceTree = SOURCE_ROOT; };
+		6A73048C1F47053F003A86E6 /* test0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test0.cpp; sourceTree = "<group>"; };
 		6A733A901CC0993400B55C5D /* utf8-unicode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "utf8-unicode.cpp"; sourceTree = SOURCE_ROOT; };
 		6A76AF971CCEFF7A0048AD43 /* memfuncpointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = memfuncpointer.cpp; sourceTree = SOURCE_ROOT; };
 		6A76AF991CCF00F70048AD43 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
@@ -798,6 +800,7 @@
 			children = (
 				6ACB10AE1D13E73200F53C9E /* memtest.cpp */,
 				6A0717891D531F5D00A568FB /* test.cpp */,
+				6A73048C1F47053F003A86E6 /* test0.cpp */,
 			);
 			path = ConsoleTest;
 			sourceTree = "<group>";
@@ -945,6 +948,7 @@
 				6A08B87D1D3E201A008CE764 /* NedPoolingPolicy.cpp in Sources */,
 				6A07178B1D531F5D00A568FB /* test.cpp in Sources */,
 				6A08B87E1D3E201A008CE764 /* AllocatedObject.cpp in Sources */,
+				6A73048D1F47053F003A86E6 /* test0.cpp in Sources */,
 				6ACB10AF1D13E73200F53C9E /* memtest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

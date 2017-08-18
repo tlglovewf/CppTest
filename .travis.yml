@@ -24,4 +24,4 @@ deploy:
   skip_cleanup: true
   on:
     repo: tlglovewf/CppTest
-    branch: master
+    branch: other

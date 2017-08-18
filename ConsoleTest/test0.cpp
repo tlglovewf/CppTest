@@ -11,7 +11,6 @@
 int main(void)
 {
     printf("hello world.");
-    printf("baby.");
     printf("where are you came from.");
     return 0;
 }

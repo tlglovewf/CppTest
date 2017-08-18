@@ -7,10 +7,8 @@ script:
 - pwd
 - g++ -v
 - echo "start build program"
-- g++ test0.cpp -o cc.exe
-- ./cc.exe
-- g++ test0.cpp -o oo.exe
-- ./oo.exe
+- g++ test0.cpp -o cc
+- ./cc
 - ls 
 - tar --version
 - tar -cvf output.tar oo.exe cc.exe 

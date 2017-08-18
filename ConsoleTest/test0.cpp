@@ -12,5 +12,6 @@ int main(void)
 {
     printf("hello world.");
     printf("coming back~");
+    printf("do you think is ok.");
     return 0;
 }

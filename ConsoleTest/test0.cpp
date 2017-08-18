@@ -11,5 +11,6 @@
 int main(void)
 {
     printf("hello world.");
+    printf("baby.");
     return 0;
 }

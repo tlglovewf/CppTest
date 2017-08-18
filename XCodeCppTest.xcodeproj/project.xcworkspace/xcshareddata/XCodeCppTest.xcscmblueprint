@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DEE8D9F159721B9FBFB6E1B0450F735E6F33DF1F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DEE8D9F159721B9FBFB6E1B0450F735E6F33DF1F" : 0,
+    "8856CE92B712F5937D89BF9915A6A478CBDB6227" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F4D7BB94-93D9-43ED-B5C1-83A2499ACB62",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DEE8D9F159721B9FBFB6E1B0450F735E6F33DF1F" : "CppTest\/",
+    "8856CE92B712F5937D89BF9915A6A478CBDB6227" : "Tinyhttpd\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "XCodeCppTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "XCodeCppTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/EZLippi\/Tinyhttpd.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8856CE92B712F5937D89BF9915A6A478CBDB6227"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tlglovewf\/CppTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DEE8D9F159721B9FBFB6E1B0450F735E6F33DF1F"
+    }
+  ]
+}

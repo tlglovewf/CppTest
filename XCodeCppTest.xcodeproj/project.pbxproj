@@ -23,6 +23,7 @@
 		6A08B87C1D3E1F21008CE764 /* NedPoolingPolicy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A08B87B1D3E1F21008CE764 /* NedPoolingPolicy.cpp */; };
 		6A08B87D1D3E201A008CE764 /* NedPoolingPolicy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A08B87B1D3E1F21008CE764 /* NedPoolingPolicy.cpp */; };
 		6A08B87E1D3E201A008CE764 /* AllocatedObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A08B8781D3E186F008CE764 /* AllocatedObject.cpp */; };
+		6A1198621F4D2C94003A5115 /* test0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A73048C1F47053F003A86E6 /* test0.cpp */; };
 		6A253AD81D6C2F7F005B21A5 /* Template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A253AD61D6C2F7F005B21A5 /* Template.cpp */; };
 		6A2DAE061D1C0F620003A481 /* geometryTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A2DAE051D1C0F620003A481 /* geometryTest.cpp */; };
 		6A3B60F21C86D68A00FD7A31 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3B60EE1C86D68A00FD7A31 /* tinystr.cpp */; };
@@ -48,6 +49,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		6A1198591F4D2C73003A5115 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		6ACB10AA1D13E73200F53C9E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,6 +107,8 @@
 		6A08B8781D3E186F008CE764 /* AllocatedObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AllocatedObject.cpp; path = MyClassDef/Src/AllocatedObject.cpp; sourceTree = SOURCE_ROOT; };
 		6A08B87A1D3E1B26008CE764 /* AllocatedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllocatedObject.h; path = MyClassDef/Include/AllocatedObject.h; sourceTree = "<group>"; };
 		6A08B87B1D3E1F21008CE764 /* NedPoolingPolicy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NedPoolingPolicy.cpp; path = MyClassDef/Src/NedPoolingPolicy.cpp; sourceTree = SOURCE_ROOT; };
+		6A11985B1F4D2C73003A5115 /* test0 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test0; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A11985D1F4D2C73003A5115 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6A253AD61D6C2F7F005B21A5 /* Template.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Template.cpp; path = Template/Template.cpp; sourceTree = "<group>"; };
 		6A253AD71D6C2F7F005B21A5 /* Template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Template.h; path = Template/Template.h; sourceTree = "<group>"; };
 		6A271ED61D0FFBA90016A118 /* loki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = loki.framework; path = loki/lib/loki.framework; sourceTree = "<group>"; };
@@ -353,6 +365,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6A1198581F4D2C73003A5115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6ACB10A91D13E73200F53C9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -451,6 +470,14 @@
 				6A08B8781D3E186F008CE764 /* AllocatedObject.cpp */,
 			);
 			name = Mem;
+			sourceTree = "<group>";
+		};
+		6A11985C1F4D2C73003A5115 /* test0 */ = {
+			isa = PBXGroup;
+			children = (
+				6A11985D1F4D2C73003A5115 /* main.cpp */,
+			);
+			path = test0;
 			sourceTree = "<group>";
 		};
 		6A253AD51D6C2F4D005B21A5 /* Template */ = {
@@ -822,6 +849,7 @@
 				6A7FAA791C1E7323007DBB6A /* json */,
 				6AE07A3B1C0BE22600563A09 /* XCodeCppTest */,
 				6ACB10AD1D13E73200F53C9E /* ConsoleTest */,
+				6A11985C1F4D2C73003A5115 /* test0 */,
 				6AE07A3A1C0BE22600563A09 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -831,6 +859,7 @@
 			children = (
 				6AE07A391C0BE22600563A09 /* XCodeCppTest */,
 				6ACB10AC1D13E73200F53C9E /* ConsoleTest */,
+				6A11985B1F4D2C73003A5115 /* test0 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -870,6 +899,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6A11985A1F4D2C73003A5115 /* test0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A1198611F4D2C73003A5115 /* Build configuration list for PBXNativeTarget "test0" */;
+			buildPhases = (
+				6A1198571F4D2C73003A5115 /* Sources */,
+				6A1198581F4D2C73003A5115 /* Frameworks */,
+				6A1198591F4D2C73003A5115 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test0;
+			productName = test0;
+			productReference = 6A11985B1F4D2C73003A5115 /* test0 */;
+			productType = "com.apple.product-type.tool";
+		};
 		6ACB10AB1D13E73200F53C9E /* ConsoleTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6ACB10B01D13E73200F53C9E /* Build configuration list for PBXNativeTarget "ConsoleTest" */;
@@ -913,6 +959,10 @@
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = TuLigen;
 				TargetAttributes = {
+					6A11985A1F4D2C73003A5115 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 					6ACB10AB1D13E73200F53C9E = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -936,11 +986,20 @@
 			targets = (
 				6AE07A381C0BE22600563A09 /* XCodeCppTest */,
 				6ACB10AB1D13E73200F53C9E /* ConsoleTest */,
+				6A11985A1F4D2C73003A5115 /* test0 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6A1198571F4D2C73003A5115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1198621F4D2C94003A5115 /* test0.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6ACB10A81D13E73200F53C9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -995,6 +1054,37 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		6A11985F1F4D2C73003A5115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				ENABLE_TESTABILITY = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A1198601F4D2C73003A5115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		6ACB10B11D13E73200F53C9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1166,6 +1256,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6A1198611F4D2C73003A5115 /* Build configuration list for PBXNativeTarget "test0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A11985F1F4D2C73003A5115 /* Debug */,
+				6A1198601F4D2C73003A5115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		6ACB10B01D13E73200F53C9E /* Build configuration list for PBXNativeTarget "ConsoleTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

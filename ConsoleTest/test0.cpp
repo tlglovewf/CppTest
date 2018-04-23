@@ -17,6 +17,7 @@ using namespace std;
 
 struct Item
 {
+<<<<<<< HEAD
     int a;
     int b;
 };
@@ -145,6 +146,11 @@ int main(int argc, const char * argv[]) {
     t = (cur4 - cur3) / time_len;
     cout << t << endl;
     cout << size / (1024.0 * 1024.0) << endl;
+=======
+    printf("hello world.");
+    printf("coming back~");
+    printf("do you think is ok.");
+>>>>>>> master
     return 0;
     */
 }

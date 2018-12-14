@@ -15,8 +15,7 @@ script:
 - ls
 - pwd
 - cd ..
-- mkdir output
-- mv ConsoleTest/output.tar output/output.tar
+- git remote -v
 deploy:
   provider: releases
   api_key:

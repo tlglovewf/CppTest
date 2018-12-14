@@ -2,5 +2,5 @@
 excercise
 
 
-[![Build Status](https://travis-ci.org/tlglovewf/CppTest?branch=master)](https://www.travis-ci.org/tlglovewf/CppTest)
+[![Build Status](https://www.travis-ci.org/tlglovewf/CppTest.svg?branch=master)](https://www.travis-ci.org/tlglovewf/CppTest)
 

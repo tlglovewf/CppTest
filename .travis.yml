@@ -18,6 +18,8 @@ script:
 - git checkout master
 - git add output.tar
 - git commit -m "tt"
+- git config --global user.name
+- git config --global user.name 'tlglovewf'
 - git push
 
 deploy:

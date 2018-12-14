@@ -14,7 +14,8 @@ script:
 - tar -cvf output.tar oo 
 - ls
 - pwd
-- get checkout master
+- git branch
+- git checkout master
 - git add output.tar
 - git commit -m "tt"
 - git push

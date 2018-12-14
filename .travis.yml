@@ -20,6 +20,7 @@ script:
 - git commit -m "tt"
 - git config --global user.name
 - git config --global user.name 'tlglovewf'
+- git config --global user.email 'tuligen@navinfo.com'
 - git push
 
 deploy:

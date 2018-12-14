@@ -13,6 +13,10 @@ script:
 - tar --version
 - tar -cvf output.tar oo 
 - ls
+- pwd
+- cd ..
+- mkdir output
+- mv ConsoleTest/output.tar output/output.tar
 deploy:
   provider: releases
   api_key:
